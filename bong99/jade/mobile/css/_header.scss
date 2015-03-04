@@ -6,6 +6,8 @@
     display: inline-block;
     img {
       width: 120px;
+      max-width:100%;
+      height: auto;
     }
   }
   #livechat {

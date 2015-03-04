@@ -32,6 +32,8 @@
     text-align: center;
     img {
       width: 100%;
+      max-width:100%;
+      height: auto;
     }
     li {
       display: inline-block;
@@ -50,6 +52,7 @@
   .home-background {
     img {
       width: 100%;
+      height:auto;
     }
   }
   .home-app {

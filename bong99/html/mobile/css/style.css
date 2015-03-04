@@ -193,12 +193,12 @@ input, textarea, select { border-radius: 3px; border: 0; padding: 7px; color: #7
 /* line 5, ../../../jade/mobile/css/_header.scss */
 #header #logo { display: inline-block; }
 /* line 7, ../../../jade/mobile/css/_header.scss */
-#header #logo img { width: 120px; }
-/* line 11, ../../../jade/mobile/css/_header.scss */
+#header #logo img { width: 120px; max-width: 100%; height: auto; }
+/* line 13, ../../../jade/mobile/css/_header.scss */
 #header #livechat { display: inline-block; text-transform: uppercase; padding: 5px 12px; background-color: #34495e; border-radius: 6px; color: #fff; position: absolute; right: 12px; top: 8px; }
-/* line 21, ../../../jade/mobile/css/_header.scss */
+/* line 23, ../../../jade/mobile/css/_header.scss */
 #header #livechat span { margin-left: 8px; color: #fff; font-size: 11px; }
-/* line 26, ../../../jade/mobile/css/_header.scss */
+/* line 28, ../../../jade/mobile/css/_header.scss */
 #header #livechat i { position: relative; top: 3px; }
 
 /* line 1, ../../../jade/mobile/css/_footer.scss */
@@ -229,20 +229,20 @@ input, textarea, select { border-radius: 3px; border: 0; padding: 7px; color: #7
 /* line 28, ../../../jade/mobile/css/_home.scss */
 .home-page .services-list { color: #000000; text-transform: uppercase; padding: 12px; text-align: center; }
 /* line 33, ../../../jade/mobile/css/_home.scss */
-.home-page .services-list img { width: 100%; }
-/* line 36, ../../../jade/mobile/css/_home.scss */
+.home-page .services-list img { width: 100%; max-width: 100%; height: auto; }
+/* line 38, ../../../jade/mobile/css/_home.scss */
 .home-page .services-list li { display: inline-block; width: 22%; vertical-align: top; padding-right: 2%; }
-/* line 41, ../../../jade/mobile/css/_home.scss */
+/* line 43, ../../../jade/mobile/css/_home.scss */
 .home-page .services-list li:last-child { padding-right: 0; }
-/* line 44, ../../../jade/mobile/css/_home.scss */
+/* line 46, ../../../jade/mobile/css/_home.scss */
 .home-page .services-list li span { font-size: 11px; font-weight: bold; }
-/* line 51, ../../../jade/mobile/css/_home.scss */
-.home-page .home-background img { width: 100%; }
-/* line 55, ../../../jade/mobile/css/_home.scss */
+/* line 53, ../../../jade/mobile/css/_home.scss */
+.home-page .home-background img { width: 100%; height: auto; }
+/* line 58, ../../../jade/mobile/css/_home.scss */
 .home-page .home-app { text-align: center; padding: 12px; margin-bottom: 12px; }
-/* line 59, ../../../jade/mobile/css/_home.scss */
+/* line 62, ../../../jade/mobile/css/_home.scss */
 .home-page .home-app a { display: inline-block; width: 32%; padding: 8px 20px; }
-/* line 63, ../../../jade/mobile/css/_home.scss */
+/* line 66, ../../../jade/mobile/css/_home.scss */
 .home-page .home-app a:first-child { margin-right: 4%; }
 
 /* line 2, ../../../jade/mobile/css/_about.scss */
@@ -257,19 +257,19 @@ input, textarea, select { border-radius: 3px; border: 0; padding: 7px; color: #7
 .page .k-widget span.k-dropdown-wrap { background: #fff; height: 30px; text-transform: uppercase; text-align: left; }
 
 /* line 28, ../../../jade/mobile/css/_about.scss */
-.about-page img { width: 100%; }
-/* line 31, ../../../jade/mobile/css/_about.scss */
+.about-page img { width: 100%; height: auto; }
+/* line 32, ../../../jade/mobile/css/_about.scss */
 .about-page .about-content { padding: 12px; color: #686868; font-size: 14px; line-height: 21px; }
 
-/* line 40, ../../../jade/mobile/css/_about.scss */
+/* line 41, ../../../jade/mobile/css/_about.scss */
 .footer-2 .content a.btn { padding: 8px 20px; }
-/* line 44, ../../../jade/mobile/css/_about.scss */
+/* line 45, ../../../jade/mobile/css/_about.scss */
 .footer-2 .content ul li { display: inline-block; padding: 10px 5px 0 5px; }
 
-/* line 51, ../../../jade/mobile/css/_about.scss */
+/* line 52, ../../../jade/mobile/css/_about.scss */
 .k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-list > .k-state-selected, .k-list > .k-state-highlight, .k-panel > .k-state-selected, .k-ghost-splitbar-vertical, .k-ghost-splitbar-horizontal, .k-draghandle.k-state-selected:hover, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-marquee-color { background-color: #e74c3c; }
 
-/* line 54, ../../../jade/mobile/css/_about.scss */
+/* line 55, ../../../jade/mobile/css/_about.scss */
 .k-list { background-color: #fff; }
 
 /* line 1, ../../../jade/mobile/css/_bank.scss */
@@ -498,92 +498,94 @@ input, textarea, select { border-radius: 3px; border: 0; padding: 7px; color: #7
 .signin-page .checkbox-style .checkbox-input:checked + .icon-checkbox { background-position: -180px -78px; }
 
 /* line 2, ../../../jade/mobile/css/_agent.scss */
-.agent-page img { width: 100%; }
-/* line 5, ../../../jade/mobile/css/_agent.scss */
+.agent-page img { width: 100%; height: auto; }
+/* line 6, ../../../jade/mobile/css/_agent.scss */
 .agent-page .commission-list { font-size: 14px; text-transform: uppercase; color: #000000; padding: 12px; font-weight: bold; text-align: center; }
-/* line 12, ../../../jade/mobile/css/_agent.scss */
+/* line 13, ../../../jade/mobile/css/_agent.scss */
 .agent-page .commission-list i { vertical-align: middle; zoom: 80%; }
-/* line 16, ../../../jade/mobile/css/_agent.scss */
+/* line 17, ../../../jade/mobile/css/_agent.scss */
 .agent-page .commission-list span { vertical-align: middle; }
-/* line 18, ../../../jade/mobile/css/_agent.scss */
+/* line 19, ../../../jade/mobile/css/_agent.scss */
 .agent-page .commission-list span.orange { text-transform: lowercase; font-weight: normal; margin: 8px 0 30px 0; display: block; text-align: center; }
 
 /* line 1, ../../../jade/mobile/css/_casino.scss */
 .casino-page { color: #000; font-size: 14px; }
 /* line 2, ../../../jade/mobile/css/_casino.scss */
-.casino-page img { width: 100%; }
-/* line 7, ../../../jade/mobile/css/_casino.scss */
+.casino-page img { width: 100%; height: auto; }
+/* line 8, ../../../jade/mobile/css/_casino.scss */
 .casino-page .background { position: relative; margin-top: -5px; }
-/* line 10, ../../../jade/mobile/css/_casino.scss */
+/* line 11, ../../../jade/mobile/css/_casino.scss */
 .casino-page .background a { display: block; position: absolute; width: 26%; top: 55%; left: 39%; }
-/* line 16, ../../../jade/mobile/css/_casino.scss */
+/* line 17, ../../../jade/mobile/css/_casino.scss */
 .casino-page .background a:last-child { top: 66%; }
-/* line 19, ../../../jade/mobile/css/_casino.scss */
-.casino-page .background a img { width: 100%; }
-/* line 24, ../../../jade/mobile/css/_casino.scss */
-.casino-page #tabs { margin-top: -2px; }
+/* line 20, ../../../jade/mobile/css/_casino.scss */
+.casino-page .background a img { width: 100%; height: auto; }
 /* line 26, ../../../jade/mobile/css/_casino.scss */
+.casino-page #tabs { margin-top: -2px; }
+/* line 28, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs ul { text-transform: uppercase; display: table; width: 100%; }
-/* line 30, ../../../jade/mobile/css/_casino.scss */
+/* line 32, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs ul li { display: table-cell; font-weight: bold; text-align: center; background-color: #eeeeee; vertical-align: middle; width: 25%; }
-/* line 37, ../../../jade/mobile/css/_casino.scss */
-.casino-page #tabs ul li .table-cell { display: inline-block; }
 /* line 39, ../../../jade/mobile/css/_casino.scss */
+.casino-page #tabs ul li .table-cell { display: inline-block; }
+/* line 41, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs ul li .table-cell a { width: 100%; font-size: 12px; height: 30px; display: table-cell; padding: 15px 0; line-height: 16px; vertical-align: middle; }
-/* line 47, ../../../jade/mobile/css/_casino.scss */
+/* line 49, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs ul li .table-cell a:focus { outline: 0; }
-/* line 52, ../../../jade/mobile/css/_casino.scss */
+/* line 54, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs ul li.ui-tabs-active { color: #FFFFFF; background-color: #e74c3c; border: none; }
-/* line 59, ../../../jade/mobile/css/_casino.scss */
-.casino-page #tabs .content { padding: 12px; }
 /* line 61, ../../../jade/mobile/css/_casino.scss */
+.casino-page #tabs .content { padding: 12px; }
+/* line 63, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs .content .play-now { margin-bottom: 10px; position: relative; }
-/* line 64, ../../../jade/mobile/css/_casino.scss */
+/* line 66, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs .content .play-now a { width: 32%; position: absolute; top: 32%; left: 8%; }
-/* line 72, ../../../jade/mobile/css/_casino.scss */
-.casino-page #tabs .content .casino-bxslider li { background-color: #FFFFFF; }
 /* line 74, ../../../jade/mobile/css/_casino.scss */
-.casino-page #tabs .content .casino-bxslider li img { width: 80%; margin-left: 10%; }
-/* line 80, ../../../jade/mobile/css/_casino.scss */
-.casino-page #tabs .content .bx-pager { display: none; }
+.casino-page #tabs .content .casino-bxslider li { background-color: #FFFFFF; }
+/* line 76, ../../../jade/mobile/css/_casino.scss */
+.casino-page #tabs .content .casino-bxslider li img { width: 80%; margin-left: 10%; height: auto; }
 /* line 83, ../../../jade/mobile/css/_casino.scss */
+.casino-page #tabs .content .bx-pager { display: none; }
+/* line 86, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs .content .bx-next { background: url(img/icon-sprite.png) no-repeat -222px -78px !important; right: -5px; }
-/* line 87, ../../../jade/mobile/css/_casino.scss */
+/* line 90, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs .content .bx-prev { background: url(img/icon-sprite.png) no-repeat -196px -78px !important; left: -5px; }
-/* line 91, ../../../jade/mobile/css/_casino.scss */
-.casino-page #tabs .content .bx-caption { width: 80%; margin-left: 10%; }
 /* line 94, ../../../jade/mobile/css/_casino.scss */
+.casino-page #tabs .content .bx-caption { width: 80%; margin-left: 10%; }
+/* line 97, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs .content .bx-caption span { text-transform: capitalize; font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: normal; }
-/* line 101, ../../../jade/mobile/css/_casino.scss */
+/* line 104, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs .content .description { margin: 27px 0 48px 0; }
-/* line 103, ../../../jade/mobile/css/_casino.scss */
+/* line 106, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs .content .description h3.title { text-align: left; font-weight: 400; }
-/* line 107, ../../../jade/mobile/css/_casino.scss */
+/* line 110, ../../../jade/mobile/css/_casino.scss */
 .casino-page #tabs .content .description p { color: #636363; line-height: 17px; text-align: justify; }
 
 /* line 2, ../../../jade/mobile/css/_direct.scss */
-.direct-page img { width: 100%; }
-/* line 5, ../../../jade/mobile/css/_direct.scss */
+.direct-page img { width: 100%; height: auto; }
+/* line 6, ../../../jade/mobile/css/_direct.scss */
 .direct-page .direct-content { position: relative; }
-/* line 7, ../../../jade/mobile/css/_direct.scss */
+/* line 8, ../../../jade/mobile/css/_direct.scss */
 .direct-page .direct-content ul { position: absolute; text-align: center; width: 100%; top: 30%; }
-/* line 12, ../../../jade/mobile/css/_direct.scss */
+/* line 13, ../../../jade/mobile/css/_direct.scss */
 .direct-page .direct-content ul li { display: inline-block; width: 46%; }
-/* line 15, ../../../jade/mobile/css/_direct.scss */
+/* line 16, ../../../jade/mobile/css/_direct.scss */
 .direct-page .direct-content ul li a { width: 96%; display: inline-block; padding: 12px 0; font-size: 14px; }
 
-/* line 25, ../../../jade/mobile/css/_direct.scss */
+/* line 26, ../../../jade/mobile/css/_direct.scss */
 .direct-footer { background: #e74c3c; margin-top: -3px; text-align: center; text-transform: uppercase; padding: 10px; }
-/* line 31, ../../../jade/mobile/css/_direct.scss */
+/* line 32, ../../../jade/mobile/css/_direct.scss */
 .direct-footer a { font-size: 16px; }
 
 /* line 2, ../../../jade/mobile/css/_sport.scss */
 .sport-page .sport-description { background-color: #34495e; font-size: 12px; padding: 5px 8px; }
 /* line 6, ../../../jade/mobile/css/_sport.scss */
 .sport-page .sport-description a { font-size: 12px; }
-/* line 10, ../../../jade/mobile/css/_sport.scss */
+/* line 11, ../../../jade/mobile/css/_sport.scss */
+.sport-page .sport-background img { height: auto; }
+/* line 16, ../../../jade/mobile/css/_sport.scss */
 .sport-page .sport-content { padding: 12px; -webkit-overflow-scrolling: touch; overflow-y: scroll; height: 500px; }
-/* line 15, ../../../jade/mobile/css/_sport.scss */
+/* line 21, ../../../jade/mobile/css/_sport.scss */
 .sport-page .sport-content iframe#iframe { width: 100%; height: 100%; }
 
 /** BxSlider v4.1.2 - Fully loaded, responsive content slider http://bxslider.com  Written by: Steven Wanderski, 2014 http://stevenwanderski.com (while drinking Belgian ales and listening to jazz)  CEO and founder of bxCreative, LTD http://bxcreative.com */
