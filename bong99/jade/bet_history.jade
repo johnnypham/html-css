@@ -1,0 +1,36 @@
+extends layout
+block title
+  title Bong99 | Bet History
+block main
+  .container_12
+    .bet-history-page
+      h3.title Lịch sử cá cược hàng ngày
+        i.iconsp-medium-dropdown
+      .bet-history-content
+        .bet-history-left
+          .provider
+            span Bong88
+          .account
+            span Chưa có tài khoản
+        .bet-history-right
+          .provider
+            span Sbonet
+          .account
+            span Chưa có tài khoản
+            i.iconsp-medium-question
+        .clearfix
+block submenu
+  .wrapper-sub-menu
+    ul#menu-id-1.sub-menu
+      li: a(href='widthraw-money.html')
+        i.iconsp-money-white
+        span Nạp tiền, rút tiền
+      li: a(href='history.html')
+        i.iconsp-tranfer-white
+        span Lịch sử giao dịch
+      li.active-submenu: a(href='bet_history.html')
+        i.iconsp-list-white
+        span Lịch sử cá cược hằng ngày
+      li: a(href='account_info.html')
+        i.iconsp-user-white
+        span Thông tin tài khoản

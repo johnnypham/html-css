@@ -1,0 +1,20 @@
+.contact-page {
+  padding: 12px;
+  color: #686868;
+  font-size: 14px;
+  line-height: 21px;
+  .contact-list {
+    color: $orange;
+    span {
+      display: inline-block;
+      zoom: 60%;
+      vertical-align: middle;
+    }
+    label {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+      margin-top: -4px;
+    }
+  }
+}

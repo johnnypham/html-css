@@ -1,0 +1,53 @@
+extends layout
+block title
+  title Bong99 | Home
+block slider
+  .container_12
+    .grid_12
+      section#banner-sport
+        a(href=''): img(src='images/banner_sport.jpg' alt='content banner')
+    .clearfix
+block main
+  section.sport-page
+    .container_12
+      .grid_3
+        aside.account-trial
+          h3.title-account-trial
+            | tài khoản dùng thử tại www.bongda88.com
+          .content-account-trial
+            ul
+              each val in [1,2,3,4,5,6,7,8,9,10]
+                li
+                  p
+                    span Username
+                    span as121331
+                  p
+                    span Password
+                    span as121331
+        aside.sport_right
+          a(href='#'): img(src='images/sport1.jpg' width='' height='159' alt='bong99')
+          a(href='#'): img(src='images/sport2.jpg' width='' height='159' alt='bong99')
+          a(href='#'): img(src='images/sport3.jpg' width='' height='159' alt='bong99')
+          a(href='#'): img(src='images/sport4.jpg' width='' height='159'
+          alt='bong99')
+      .grid_9
+        .content-event-sport
+          .desc-info
+            p
+              a(href='#') &nbspwww.bong99.com&nbsp
+              | là trang quản lý giao dịch của trang
+              a(href='#') &nbspwww.bongda88.com.&nbsp
+              | Mọi đặt cược sẽ được tiến hành tại
+              a(href='#') &nbspwww.bongda88.com&nbsp
+              | và thanh toán qua
+              a(href='#') &nbspwww.bong99.com.&nbsp
+              | Đem lại sự tiện lợi và an toàn nhất cho quý khách
+          .iframe
+            iframe#iframe(src="http://sports.wrsport.com/_view/RMOdds1.aspx")
+
+
+      .clearfix
+
+
+
+

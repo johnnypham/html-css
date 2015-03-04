@@ -1,0 +1,190 @@
+[class*='iconsp-'] {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background: url('img/icon-sprite.png') no-repeat;
+}
+
+[class*='-medium-'] {
+  height: 30px;
+  width: 30px;
+}
+
+[class*='-large-'] {
+  height: 87px;
+  width: 87px;
+  background: url('img/icon-sprite-social.png') no-repeat;
+  cursor: pointer;
+}
+
+.iconsp-large-phone {
+  background-position: 0 0;
+}
+.iconsp-large-phone:hover,
+.iconsp-large-phone:active,
+.iconsp-large-phone:focus,
+.iconsp-large-phone:visited {
+  background-position: 0 -87px;
+}
+
+.iconsp-large-viber {
+  background-position: -87px 0;
+}
+.iconsp-large-viber:hover,
+.iconsp-large-viber:active,
+.iconsp-large-viber:focus,
+.iconsp-large-viber:visited {
+  background-position: -87px -87px;
+}
+
+.iconsp-large-email {
+  background-position: -174px 0;
+}
+.iconsp-large-email:hover,
+.iconsp-large-email:active,
+.iconsp-large-email:focus,
+.iconsp-large-email:visited{
+  background-position: -174px -87px;
+}
+
+.iconsp-large-facebook {
+  background-position: -261px 0;
+}
+.iconsp-large-facebook:hover,
+.iconsp-large-facebook:active,
+.iconsp-large-facebook:focus,
+.iconsp-large-facebook:visited {
+  background-position: -261px -87px;
+}
+
+.iconsp-large-zalo {
+  background-position: -348px 0;
+}
+.iconsp-large-zalo:hover,
+.iconsp-large-zalo:active,
+.iconsp-large-zalo:focus,
+.iconsp-large-zalo:visited{
+  background-position: -348px -87px;
+}
+
+.iconsp-large-phone-2 {
+  background-position: -435px 0;
+}
+.iconsp-large-phone-2:hover,
+.iconsp-large-phone-2:active,
+.iconsp-large-phone-2:focus,
+.iconsp-large-phone-2:visited{
+  background-position: -435px -87px;
+}
+
+.iconsp-large-wechat {
+  background-position: -522px 0;
+}
+.iconsp-large-wechat:hover,
+.iconsp-large-wechat:active,
+.iconsp-large-wechat:focus,
+.iconsp-large-wechat:visited{
+  background-position: -522px -87px;
+}
+
+.iconsp-large-skype {
+  background-position: -609px 0;
+}
+.iconsp-large-skype:hover,
+.iconsp-large-skype:active,
+.iconsp-large-skype:focus,
+.iconsp-large-skype:visited{
+  background-position: -609px -87px;
+}
+
+.iconsp-large-yahoo {
+  background-position: -696px 0;
+}
+.iconsp-large-yahoo:hover,
+.iconsp-large-yahoo:active,
+.iconsp-large-yahoo:focus,
+.iconsp-large-yahoo:visited{
+  background-position: -696px -87px;
+}
+
+.iconsp-medium-facebook {
+  background-position: 0 0;
+}
+
+.iconsp-medium-line {
+  background-position: -30px 0;
+}
+
+.iconsp-medium-skype {
+  background-position: -60px 0;
+}
+
+.iconsp-medium-viber {
+  background-position: -90px 0;
+}
+
+.iconsp-medium-yahoo {
+  background-position: -120px 0;
+}
+
+.iconsp-medium-zalo {
+  background-position: -150px 0;
+}
+
+.iconsp-medium-question {
+   background-position: -125px -55px;
+   cursor: pointer;
+    width: 25px;
+    height: 25px;
+ }
+
+.iconsp-medium-refresh {
+  background-position: -98px -78px;
+  cursor: pointer;
+  width: 28px;
+}
+
+.iconsp-medium-comment {
+  background-position: -147px -54px;
+  cursor: pointer;
+}
+
+.iconsp-medium-dropdown {
+  background-position: -173px -50px;
+  cursor: pointer;
+}
+
+.iconsp-comment {
+  background-position: -180px -36px;
+  height: 13px;
+  width: 14px;
+}
+.iconsp-question{
+  background-position: -150px -30px;
+}
+.iconsp-guid-res{
+  background-position: -124px -30px;
+}
+
+.iconsp-guid-paid{
+  background-position: 0px -80px;
+}
+.iconsp-guid-account{
+  background-position:-102px -55px;
+}
+.iconsp-guid-walk{
+  background-position: -102px -30px;
+}
+.iconsp-money-white{
+  background-position: 0 -56px;
+}
+.iconsp-tranfer-white{
+  background-position: -75px -56px;
+}
+.iconsp-list-white{
+  background-position: -25px -56px;
+}
+.iconsp-user-white{
+  background-position: -50px -56px;
+ }
+

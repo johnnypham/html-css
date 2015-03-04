@@ -1,0 +1,40 @@
+.bank-page {
+  padding: 12px;
+  font-size: 14px;
+  color: #686868;
+  line-height: 21px;
+  p {
+    margin-bottom: 30px;
+  }
+  .bank-list {
+    text-align: center;
+    img {
+      width: 120px;
+      position: relative;
+      top: 10px;
+      height: auto;
+    }
+    li {
+      height: 78px;
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px solid #cccccc;
+      &:nth-child(3) {
+        img {
+          width: 70px;
+        }
+      }
+      &:nth-child(5) {
+        img {
+          top: 25px;
+        }
+      }
+      &:nth-child(7) {
+        border-bottom: none;
+        img {
+          top: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+extends layout
+block title
+  title Bong99 | Casino
+block main
+  .container_12.casino-page
+    .grid_12
+      .casino-banner
+        img(src='images/banner_casino.jpg' alt='bong99')
+        //.play-download
+        //  h2
+        //    | 388bet
+        //    br
+        //    | casino
+        a.play-main-banner(href="") Choi ngay
+        a.download-banner(href="") Tai ve may
+    .casino-content
+      each val in [1,2,3,4,5,6]
+        .grid_6
+          .game
+            a(href=''): img(src='images/banner_casino#{val}.jpg' alt='bong99')
+          //.game-info
+          //  h4.title american roulette
+          //  p Roulette is a casino game named after a French diminutive for little wheel. In the game, players may choose to place bets on either a single number or a range of numbers, the colors red or black, or whether the number is odd or even.
+          //  a(href="") Chơi Ngay
+      //.grid_6
+      //  .game
+      //    img(src='images/casino-2.jpg' alt='bong99')
+      //    .game-info
+      //      h4.title american roulette
+      //      p Roulette is a casino game named after a French diminutive for little wheel. In the game, players may choose to place bets on either a single number or a range of numbers, the colors red or black, or whether the number is odd or even.
+      //      a(href="") Chơi Ngay
+      //.grid_6
+      //  .game
+      //    img(src='images/casino-3.jpg' alt='bong99')
+      //    .game-info
+      //      h4.title american roulette
+      //      p Roulette is a casino game named after a French diminutive for little wheel. In the game, players may choose to place bets on either a single number or a range of numbers, the colors red or black, or whether the number is odd or even.
+      //      a(href="") Chơi Ngay
+      //.grid_6
+      //  .game
+      //    img(src='images/casino-4.jpg' alt='bong99')
+      //    .game-info
+      //      h4.title american roulette
+      //      p Roulette is a casino game named after a French diminutive for little wheel. In the game, players may choose to place bets on either a single number or a range of numbers, the colors red or black, or whether the number is odd or even.
+      //      a(href="") Chơi Ngay
+    .clearfix

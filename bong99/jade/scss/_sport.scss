@@ -1,0 +1,74 @@
+#banner-sport {
+  position: relative;
+  img {
+    width: 100%;
+  }
+}
+
+.sport-page {
+  padding: 15px 0 35px 0;
+
+  aside.sport_right img {
+    width: 100%;
+  }
+  .iframe {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    height: 900px;
+  }
+  iframe#iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .desc-info {
+    font-size: 12px;
+    line-height: 15px;
+    background: $blue;
+    a {
+      font-size: 12px;
+      &:hover {
+        color: $orange;
+      }
+    }
+  }
+  .iframe {
+    background: $darkBlue;
+  }
+  .iframe,
+  .desc-info {
+    padding: 15px;
+  }
+
+  aside.account-trial {
+    border: 1px solid $orange;
+    margin-bottom: 10px;
+  }
+
+  h3.title-account-trial {
+    background: $orange;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .content-account-trial {
+    font-size: 13px;
+    li {
+      padding: 10px 15px;
+      span:first-child {
+        padding-right: 10px;
+      }
+      p {
+        margin-bottom: 5px;
+      }
+      &:nth-child(odd) {
+        background: $blue;
+      }
+      &:nth-child(even) {
+        background: $darkBlue;
+      }
+    }
+  }
+
+}

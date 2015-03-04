@@ -1,0 +1,973 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)
+*/
+/* line 6, ../../jade/scss/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, ../../jade/scss/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+/* line 33, ../../jade/scss/_reset.scss */
+body { line-height: 1; }
+
+/* line 37, ../../jade/scss/_reset.scss */
+ol, ul { list-style: none; }
+
+/* line 41, ../../jade/scss/_reset.scss */
+blockquote, q { quotes: none; }
+
+/* line 45, ../../jade/scss/_reset.scss */
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* line 51, ../../jade/scss/_reset.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+/* Forces backgrounds to span full width, even if there is horizontal scrolling. Increase this if your layout is wider.
+ Note: IE6 works fine without this fix.
+*/
+/* line 17, ../../jade/scss/_grid.scss */
+body { min-width: 1032px; }
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+/* line 27, ../../jade/scss/_grid.scss */
+.container_12 { margin-left: auto; margin-right: auto; width: 1032px; }
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 37, ../../jade/scss/_grid.scss */
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 { display: inline; float: left; position: relative; margin-left: 5px; margin-right: 5px; }
+
+/* line 58, ../../jade/scss/_grid.scss */
+.push_1, .pull_1, .push_2, .pull_2, .push_3, .pull_3, .push_4, .pull_4, .push_5, .pull_5, .push_6, .pull_6, .push_7, .pull_7, .push_8, .pull_8, .push_9, .pull_9, .push_10, .pull_10, .push_11, .pull_11, .push_12, .pull_12 { position: relative; }
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+/* line 77, ../../jade/scss/_grid.scss */
+.alpha { margin-left: 0; }
+
+/* line 81, ../../jade/scss/_grid.scss */
+.omega { margin-right: 0; }
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 89, ../../jade/scss/_grid.scss */
+.container_12 .grid_1 { width: 76px; }
+
+/* line 93, ../../jade/scss/_grid.scss */
+.container_12 .grid_2 { width: 162px; }
+
+/* line 97, ../../jade/scss/_grid.scss */
+.container_12 .grid_3 { width: 248px; }
+
+/* line 101, ../../jade/scss/_grid.scss */
+.container_12 .grid_4 { width: 334px; }
+
+/* line 105, ../../jade/scss/_grid.scss */
+.container_12 .grid_5 { width: 420px; }
+
+/* line 109, ../../jade/scss/_grid.scss */
+.container_12 .grid_6 { width: 506px; }
+
+/* line 113, ../../jade/scss/_grid.scss */
+.container_12 .grid_7 { width: 592px; }
+
+/* line 117, ../../jade/scss/_grid.scss */
+.container_12 .grid_8 { width: 678px; }
+
+/* line 121, ../../jade/scss/_grid.scss */
+.container_12 .grid_9 { width: 764px; }
+
+/* line 125, ../../jade/scss/_grid.scss */
+.container_12 .grid_10 { width: 850px; }
+
+/* line 129, ../../jade/scss/_grid.scss */
+.container_12 .grid_11 { width: 936px; }
+
+/* line 133, ../../jade/scss/_grid.scss */
+.container_12 .grid_12 { width: 1022px; }
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 144, ../../jade/scss/_grid.scss */
+.container_12 .prefix_1 { padding-left: 86px; }
+
+/* line 148, ../../jade/scss/_grid.scss */
+.container_12 .prefix_2 { padding-left: 172px; }
+
+/* line 152, ../../jade/scss/_grid.scss */
+.container_12 .prefix_3 { padding-left: 258px; }
+
+/* line 156, ../../jade/scss/_grid.scss */
+.container_12 .prefix_4 { padding-left: 344px; }
+
+/* line 160, ../../jade/scss/_grid.scss */
+.container_12 .prefix_5 { padding-left: 430px; }
+
+/* line 164, ../../jade/scss/_grid.scss */
+.container_12 .prefix_6 { padding-left: 516px; }
+
+/* line 168, ../../jade/scss/_grid.scss */
+.container_12 .prefix_7 { padding-left: 602px; }
+
+/* line 172, ../../jade/scss/_grid.scss */
+.container_12 .prefix_8 { padding-left: 688px; }
+
+/* line 176, ../../jade/scss/_grid.scss */
+.container_12 .prefix_9 { padding-left: 774px; }
+
+/* line 180, ../../jade/scss/_grid.scss */
+.container_12 .prefix_10 { padding-left: 860px; }
+
+/* line 184, ../../jade/scss/_grid.scss */
+.container_12 .prefix_11 { padding-left: 946px; }
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 194, ../../jade/scss/_grid.scss */
+.container_12 .suffix_1 { padding-right: 86px; }
+
+/* line 198, ../../jade/scss/_grid.scss */
+.container_12 .suffix_2 { padding-right: 172px; }
+
+/* line 202, ../../jade/scss/_grid.scss */
+.container_12 .suffix_3 { padding-right: 258px; }
+
+/* line 206, ../../jade/scss/_grid.scss */
+.container_12 .suffix_4 { padding-right: 344px; }
+
+/* line 210, ../../jade/scss/_grid.scss */
+.container_12 .suffix_5 { padding-right: 430px; }
+
+/* line 214, ../../jade/scss/_grid.scss */
+.container_12 .suffix_6 { padding-right: 516px; }
+
+/* line 218, ../../jade/scss/_grid.scss */
+.container_12 .suffix_7 { padding-right: 602px; }
+
+/* line 222, ../../jade/scss/_grid.scss */
+.container_12 .suffix_8 { padding-right: 688px; }
+
+/* line 226, ../../jade/scss/_grid.scss */
+.container_12 .suffix_9 { padding-right: 774px; }
+
+/* line 230, ../../jade/scss/_grid.scss */
+.container_12 .suffix_10 { padding-right: 860px; }
+
+/* line 234, ../../jade/scss/_grid.scss */
+.container_12 .suffix_11 { padding-right: 946px; }
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 244, ../../jade/scss/_grid.scss */
+.container_12 .push_1 { left: 86px; }
+
+/* line 248, ../../jade/scss/_grid.scss */
+.container_12 .push_2 { left: 172px; }
+
+/* line 252, ../../jade/scss/_grid.scss */
+.container_12 .push_3 { left: 258px; }
+
+/* line 256, ../../jade/scss/_grid.scss */
+.container_12 .push_4 { left: 344px; }
+
+/* line 260, ../../jade/scss/_grid.scss */
+.container_12 .push_5 { left: 430px; }
+
+/* line 264, ../../jade/scss/_grid.scss */
+.container_12 .push_6 { left: 516px; }
+
+/* line 268, ../../jade/scss/_grid.scss */
+.container_12 .push_7 { left: 602px; }
+
+/* line 272, ../../jade/scss/_grid.scss */
+.container_12 .push_8 { left: 688px; }
+
+/* line 276, ../../jade/scss/_grid.scss */
+.container_12 .push_9 { left: 774px; }
+
+/* line 280, ../../jade/scss/_grid.scss */
+.container_12 .push_10 { left: 860px; }
+
+/* line 284, ../../jade/scss/_grid.scss */
+.container_12 .push_11 { left: 946px; }
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 294, ../../jade/scss/_grid.scss */
+.container_12 .pull_1 { left: -86px; }
+
+/* line 298, ../../jade/scss/_grid.scss */
+.container_12 .pull_2 { left: -172px; }
+
+/* line 302, ../../jade/scss/_grid.scss */
+.container_12 .pull_3 { left: -258px; }
+
+/* line 306, ../../jade/scss/_grid.scss */
+.container_12 .pull_4 { left: -344px; }
+
+/* line 310, ../../jade/scss/_grid.scss */
+.container_12 .pull_5 { left: -430px; }
+
+/* line 314, ../../jade/scss/_grid.scss */
+.container_12 .pull_6 { left: -516px; }
+
+/* line 318, ../../jade/scss/_grid.scss */
+.container_12 .pull_7 { left: -602px; }
+
+/* line 322, ../../jade/scss/_grid.scss */
+.container_12 .pull_8 { left: -688px; }
+
+/* line 326, ../../jade/scss/_grid.scss */
+.container_12 .pull_9 { left: -774px; }
+
+/* line 330, ../../jade/scss/_grid.scss */
+.container_12 .pull_10 { left: -860px; }
+
+/* line 334, ../../jade/scss/_grid.scss */
+.container_12 .pull_11 { left: -946px; }
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+/* line 346, ../../jade/scss/_grid.scss */
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+/* line 357, ../../jade/scss/_grid.scss */
+.clearfix:before, .clearfix:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+/* line 367, ../../jade/scss/_grid.scss */
+.clearfix:after { clear: both; }
+
+/* The following zoom:1 rule is specifically for IE6 + IE7. Move to separate stylesheet if invalid CSS is a problem.
+*/
+/* line 376, ../../jade/scss/_grid.scss */
+.clearfix { zoom: 1; }
+
+/* line 1, ../../jade/scss/_icons.scss */
+[class*='iconsp-'] { display: inline-block; height: 25px; width: 25px; background: url("img/icon-sprite.png") no-repeat; }
+
+/* line 8, ../../jade/scss/_icons.scss */
+[class*='-medium-'] { height: 30px; width: 30px; }
+
+/* line 13, ../../jade/scss/_icons.scss */
+[class*='-large-'] { height: 87px; width: 87px; background: url("img/icon-sprite-social.png") no-repeat; cursor: pointer; }
+
+/* line 20, ../../jade/scss/_icons.scss */
+.iconsp-large-phone { background-position: 0 0; }
+
+/* line 23, ../../jade/scss/_icons.scss */
+.iconsp-large-phone:hover, .iconsp-large-phone:active, .iconsp-large-phone:focus, .iconsp-large-phone:visited { background-position: 0 -87px; }
+
+/* line 30, ../../jade/scss/_icons.scss */
+.iconsp-large-viber { background-position: -87px 0; }
+
+/* line 33, ../../jade/scss/_icons.scss */
+.iconsp-large-viber:hover, .iconsp-large-viber:active, .iconsp-large-viber:focus, .iconsp-large-viber:visited { background-position: -87px -87px; }
+
+/* line 40, ../../jade/scss/_icons.scss */
+.iconsp-large-email { background-position: -174px 0; }
+
+/* line 43, ../../jade/scss/_icons.scss */
+.iconsp-large-email:hover, .iconsp-large-email:active, .iconsp-large-email:focus, .iconsp-large-email:visited { background-position: -174px -87px; }
+
+/* line 50, ../../jade/scss/_icons.scss */
+.iconsp-large-facebook { background-position: -261px 0; }
+
+/* line 53, ../../jade/scss/_icons.scss */
+.iconsp-large-facebook:hover, .iconsp-large-facebook:active, .iconsp-large-facebook:focus, .iconsp-large-facebook:visited { background-position: -261px -87px; }
+
+/* line 60, ../../jade/scss/_icons.scss */
+.iconsp-large-zalo { background-position: -348px 0; }
+
+/* line 63, ../../jade/scss/_icons.scss */
+.iconsp-large-zalo:hover, .iconsp-large-zalo:active, .iconsp-large-zalo:focus, .iconsp-large-zalo:visited { background-position: -348px -87px; }
+
+/* line 70, ../../jade/scss/_icons.scss */
+.iconsp-large-phone-2 { background-position: -435px 0; }
+
+/* line 73, ../../jade/scss/_icons.scss */
+.iconsp-large-phone-2:hover, .iconsp-large-phone-2:active, .iconsp-large-phone-2:focus, .iconsp-large-phone-2:visited { background-position: -435px -87px; }
+
+/* line 80, ../../jade/scss/_icons.scss */
+.iconsp-large-wechat { background-position: -522px 0; }
+
+/* line 83, ../../jade/scss/_icons.scss */
+.iconsp-large-wechat:hover, .iconsp-large-wechat:active, .iconsp-large-wechat:focus, .iconsp-large-wechat:visited { background-position: -522px -87px; }
+
+/* line 90, ../../jade/scss/_icons.scss */
+.iconsp-large-skype { background-position: -609px 0; }
+
+/* line 93, ../../jade/scss/_icons.scss */
+.iconsp-large-skype:hover, .iconsp-large-skype:active, .iconsp-large-skype:focus, .iconsp-large-skype:visited { background-position: -609px -87px; }
+
+/* line 100, ../../jade/scss/_icons.scss */
+.iconsp-large-yahoo { background-position: -696px 0; }
+
+/* line 103, ../../jade/scss/_icons.scss */
+.iconsp-large-yahoo:hover, .iconsp-large-yahoo:active, .iconsp-large-yahoo:focus, .iconsp-large-yahoo:visited { background-position: -696px -87px; }
+
+/* line 110, ../../jade/scss/_icons.scss */
+.iconsp-medium-facebook { background-position: 0 0; }
+
+/* line 114, ../../jade/scss/_icons.scss */
+.iconsp-medium-line { background-position: -30px 0; }
+
+/* line 118, ../../jade/scss/_icons.scss */
+.iconsp-medium-skype { background-position: -60px 0; }
+
+/* line 122, ../../jade/scss/_icons.scss */
+.iconsp-medium-viber { background-position: -90px 0; }
+
+/* line 126, ../../jade/scss/_icons.scss */
+.iconsp-medium-yahoo { background-position: -120px 0; }
+
+/* line 130, ../../jade/scss/_icons.scss */
+.iconsp-medium-zalo { background-position: -150px 0; }
+
+/* line 134, ../../jade/scss/_icons.scss */
+.iconsp-medium-question { background-position: -125px -55px; cursor: pointer; width: 25px; height: 25px; }
+
+/* line 141, ../../jade/scss/_icons.scss */
+.iconsp-medium-refresh { background-position: -98px -78px; cursor: pointer; width: 28px; }
+
+/* line 147, ../../jade/scss/_icons.scss */
+.iconsp-medium-comment { background-position: -147px -54px; cursor: pointer; }
+
+/* line 152, ../../jade/scss/_icons.scss */
+.iconsp-medium-dropdown { background-position: -173px -50px; cursor: pointer; }
+
+/* line 157, ../../jade/scss/_icons.scss */
+.iconsp-comment { background-position: -180px -36px; height: 13px; width: 14px; }
+
+/* line 162, ../../jade/scss/_icons.scss */
+.iconsp-question { background-position: -150px -30px; }
+
+/* line 165, ../../jade/scss/_icons.scss */
+.iconsp-guid-res { background-position: -124px -30px; }
+
+/* line 169, ../../jade/scss/_icons.scss */
+.iconsp-guid-paid { background-position: 0px -80px; }
+
+/* line 172, ../../jade/scss/_icons.scss */
+.iconsp-guid-account { background-position: -102px -55px; }
+
+/* line 175, ../../jade/scss/_icons.scss */
+.iconsp-guid-walk { background-position: -102px -30px; }
+
+/* line 178, ../../jade/scss/_icons.scss */
+.iconsp-money-white { background-position: 0 -56px; }
+
+/* line 181, ../../jade/scss/_icons.scss */
+.iconsp-tranfer-white { background-position: -75px -56px; }
+
+/* line 184, ../../jade/scss/_icons.scss */
+.iconsp-list-white { background-position: -25px -56px; }
+
+/* line 187, ../../jade/scss/_icons.scss */
+.iconsp-user-white { background-position: -50px -56px; }
+
+@font-face { font-family: "aurora"; src: url("fonts//utm_aurora-webfont.eot"); src: url("fonts//utm_aurora-webfont.eot?#iefix") format("embedded-opentype"), url("fonts//utm_aurora-webfont.woff") format("woff"), url("fonts//utm_aurora-webfont.ttf") format("truetype"), url("fonts//utm_aurora-webfont.svg#aurora") format("svg"); font-weight: normal; font-style: normal; }
+/* line 8, ../../jade/scss/_common.scss */
+body { background: url("img/bg-body.jpg") repeat; color: #FFF; font-family: 'Roboto', sans-serif; font-weight: 400; -webkit-text-size-adjust: 100%; float: left; width: 100%; }
+
+/* line 19, ../../jade/scss/_common.scss */
+html, body { height: 100%; }
+
+/* line 22, ../../jade/scss/_common.scss */
+.page-wrap { min-height: 100%; /* equal to footer height */ margin-bottom: -256px; }
+
+/* line 27, ../../jade/scss/_common.scss */
+.page-wrap:after { content: ""; display: block; }
+
+/* line 31, ../../jade/scss/_common.scss */
+.site-footer, .page-wrap:after { height: 256px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+
+/* line 36, ../../jade/scss/_common.scss */
+header { background: url("img/bg-header.jpg") repeat; }
+
+/* line 40, ../../jade/scss/_common.scss */
+footer { background: url("img/bg-footer.jpg") repeat; padding: 15px 0 30px 0; }
+
+/* line 45, ../../jade/scss/_common.scss */
+a { color: inherit; text-decoration: none; font-size: 13px; line-height: 22px; cursor: pointer; }
+/* line 51, ../../jade/scss/_common.scss */
+a:focus, a:active { outline: 0; }
+
+/* line 57, ../../jade/scss/_common.scss */
+h1 { font-size: 22px; line-height: 24px; }
+
+/* line 62, ../../jade/scss/_common.scss */
+h2 { font-size: 20px; line-height: 22px; }
+
+/* line 67, ../../jade/scss/_common.scss */
+h3 { font-size: 16px; line-height: 20px; }
+
+/* line 72, ../../jade/scss/_common.scss */
+h4 { font-size: 13px; line-height: 18px; }
+
+/* line 77, ../../jade/scss/_common.scss */
+.btn { padding: 5px; border-radius: 5px; border: 0; color: #FFF; }
+
+/* line 84, ../../jade/scss/_common.scss */
+.btn-orange { background: #e74c3c; }
+
+/* line 88, ../../jade/scss/_common.scss */
+.btn-blue { background: #34495e; }
+
+/* line 92, ../../jade/scss/_common.scss */
+input, textarea, select { border-radius: 3px; border: 0; padding: 7px; color: #757575; font-family: 'Helvetica Neue', sans-serif; font-weight: 500; }
+/* line 101, ../../jade/scss/_common.scss */
+input::-moz-focus-inner, textarea::-moz-focus-inner, select::-moz-focus-inner { border: 0; }
+/* line 104, ../../jade/scss/_common.scss */
+input:focus, input:active, textarea:focus, textarea:active, select:focus, select:active { outline: 0; }
+
+/* line 110, ../../jade/scss/_common.scss */
+.bg-blue { background: #223851; }
+
+/* line 114, ../../jade/scss/_common.scss */
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder { color: #757575; }
+
+/* line 121, ../../jade/scss/_common.scss */
+.main-body { background: url("img/bg-body.jpg") repeat; position: relative; z-index: 2; }
+
+/* line 127, ../../jade/scss/_common.scss */
+.home-page { padding: 0 0 40px 0; }
+
+/* line 131, ../../jade/scss/_common.scss */
+.content-tooltip { display: none; }
+
+/* line 135, ../../jade/scss/_common.scss */
+.tooltip:hover + .content-tooltip { display: block; }
+
+/** BxSlider v4.1.2 - Fully loaded, responsive content slider http://bxslider.com  Written by: Steven Wanderski, 2014 http://stevenwanderski.com (while drinking Belgian ales and listening to jazz)  CEO and founder of bxCreative, LTD http://bxcreative.com */
+/** RESET AND LAYOUT
+===================================*/
+/* line 17, ../../jade/scss/_bxslider.scss */
+.bx-wrapper { position: relative; margin: 0 auto; padding: 0; *zoom: 1; }
+
+/* line 24, ../../jade/scss/_bxslider.scss */
+.bx-wrapper img { max-width: 100%; display: block; }
+
+/** THEME
+===================================*/
+/* line 48, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto { position: absolute; bottom: 0; width: 100%; }
+
+/* LOADER */
+/* line 57, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-loading { min-height: 50px; background: url(img/bx_loader.gif) center center no-repeat #fff; height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 2000; }
+
+/* PAGER */
+/* line 70, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager { text-align: center; font-size: .85em; font-family: Arial; font-weight: bold; color: #666; padding-top: 20px; }
+
+/* line 79, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item { display: inline-block; *zoom: 1; *display: inline; }
+
+/* line 86, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager.bx-default-pager a { background: #fff; text-indent: -9999px; display: block; width: 10px; height: 10px; margin: 0 5px; outline: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+/* line 99, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active { background: #e74c3c; }
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+/* line 106, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-prev span { background: url(img/controls.png) no-repeat 0 -32px; }
+
+/* line 110, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-next { right: 10px; }
+
+/* line 113, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-prev { left: 10px; }
+
+/* line 118, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-next span { background: url(img/controls.png) no-repeat -43px -32px; }
+
+/* line 123, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-prev:hover span { background-position: 0 0; }
+
+/* line 127, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-next:hover span { background-position: -43px 0; }
+
+/* line 130, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-direction a.bx-next span { left: 65px; }
+
+/* line 133, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-direction a { position: absolute; top: 5%; margin-top: -16px; outline: 0; width: 100px; height: 421px; text-indent: -9999px; z-index: 99; }
+
+/* line 144, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-direction a span { position: relative; top: 45%; margin-top: -16px; outline: 0; display: block; width: 32px; height: 32px; z-index: 9999; }
+
+/* line 154, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-direction a.disabled { display: none; }
+
+/* AUTO CONTROLS (START / STOP) */
+/* line 160, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto { text-align: center; }
+
+/* line 164, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-start { display: block; text-indent: -9999px; width: 10px; height: 11px; outline: 0; background: url(img/controls.png) -86px -11px no-repeat; margin: 0 3px; }
+
+/* line 174, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active { background-position: -86px 0; }
+
+/* line 179, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-stop { display: block; text-indent: -9999px; width: 9px; height: 11px; outline: 0; background: url(img/controls.png) -86px -44px no-repeat; margin: 0 3px; }
+
+/* line 189, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active { background-position: -86px -33px; }
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+/* line 196, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager { text-align: left; width: 80%; }
+
+/* line 201, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto { right: 0; width: 35px; }
+
+/* IMAGE CAPTIONS */
+/* line 208, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-caption { position: absolute; bottom: 0; left: 0; background: #666 \9; background: rgba(80, 80, 80, 0.75); width: 100%; }
+
+/* line 217, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-caption span { color: #fff; font-family: Arial; display: block; font-size: .85em; padding: 10px; }
+
+/* line 1, ../../jade/scss/_header.scss */
+#header { padding: 10px 0 0 0; }
+/* line 4, ../../jade/scss/_header.scss */
+#header #logo img { width: 75%; }
+/* line 8, ../../jade/scss/_header.scss */
+#header form#login-bar { margin-bottom: 10px; text-align: right; }
+/* line 11, ../../jade/scss/_header.scss */
+#header form#login-bar button { padding: 7px 16px; cursor: pointer; }
+/* line 15, ../../jade/scss/_header.scss */
+#header form#login-bar .form-input { display: inline; margin-right: 3px; position: relative; }
+/* line 19, ../../jade/scss/_header.scss */
+#header form#login-bar .form-input input { width: 114px; }
+/* line 23, ../../jade/scss/_header.scss */
+#header form#login-bar .icon-input-question { position: relative; }
+/* line 26, ../../jade/scss/_header.scss */
+#header form#login-bar .btn { padding: 6px 20px; font-weight: 600; font-size: 13px; vertical-align: middle; }
+/* line 32, ../../jade/scss/_header.scss */
+#header form#login-bar .question-icon { content: '?'; display: inline-block; height: 20px; width: 20px; position: absolute; background: #F58920; right: 8px; top: 0; text-align: center; padding-top: 3px; cursor: pointer; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; border-radius: 5px; }
+/* line 46, ../../jade/scss/_header.scss */
+#header form#login-bar .question-icon:hover { opacity: 0.6; }
+/* line 55, ../../jade/scss/_header.scss */
+#header .register-bar { font-size: 13px; text-align: right; }
+/* line 58, ../../jade/scss/_header.scss */
+#header .register-bar li { display: inline-block; vertical-align: middle; font-family: 'Helvetica Neue', sans-serif; margin-left: 5px; font-weight: bold; }
+/* line 64, ../../jade/scss/_header.scss */
+#header .register-bar li .btn { padding: 5px 19px; font-weight: 600; }
+/* line 67, ../../jade/scss/_header.scss */
+#header .register-bar li .btn img { position: relative; top: 3px; margin-left: 5px; }
+/* line 72, ../../jade/scss/_header.scss */
+#header .register-bar li .btn i { position: relative; top: 3px; left: -4px; }
+/* line 79, ../../jade/scss/_header.scss */
+#header .register-bar button { padding: 5px 15px; }
+/* line 82, ../../jade/scss/_header.scss */
+#header .register-bar .flag-active { opacity: 1 !important; }
+/* line 86, ../../jade/scss/_header.scss */
+#header .register-bar .flag { opacity: 0.7; }
+/* line 91, ../../jade/scss/_header.scss */
+#header #top-menu { border-bottom: 2px solid #e74c3c; position: relative; }
+/* line 94, ../../jade/scss/_header.scss */
+#header #top-menu .main-menu { background: #e74c3c; width: 820px; margin: 10px auto 0; text-transform: uppercase; font-family: 'Helvetica Neue', sans-serif; font-weight: 800; padding: 0 5px; position: relative; top: 2px; display: table; }
+/* line 105, ../../jade/scss/_header.scss */
+#header #top-menu .main-menu:before, #header #top-menu .main-menu:after { content: ''; height: 1px; width: 1px; position: absolute; display: inline-block; top: 0; border-top: 25px solid transparent; }
+/* line 116, ../../jade/scss/_header.scss */
+#header #top-menu .main-menu:after { border-left: 12px solid #e74c3c; right: -13px; }
+/* line 120, ../../jade/scss/_header.scss */
+#header #top-menu .main-menu:before { border-right: 12px solid #e74c3c; left: -13px; }
+/* line 124, ../../jade/scss/_header.scss */
+#header #top-menu .main-menu li { display: table-cell; text-align: center; padding: 2px 0px; z-index: 3; position: relative; }
+/* line 131, ../../jade/scss/_header.scss */
+#header #top-menu .main-menu li a { padding: 5px 0; }
+/* line 135, ../../jade/scss/_header.scss */
+#header #top-menu .main-menu li:hover, #header #top-menu .main-menu .active-menu { background: #34495e; }
+/* line 141, ../../jade/scss/_header.scss */
+#header .wrapper-sub-menu { position: absolute; width: 100%; z-index: 10; left: 0; top: 28px; }
+/* line 148, ../../jade/scss/_header.scss */
+#header .sub-menu { display: table; width: 853px; margin: 0 auto; background: #34495e; box-sizing: border-box; }
+/* line 154, ../../jade/scss/_header.scss */
+#header .sub-menu li { display: table-cell; text-align: center; }
+/* line 157, ../../jade/scss/_header.scss */
+#header .sub-menu li * { vertical-align: middle; }
+/* line 160, ../../jade/scss/_header.scss */
+#header .sub-menu li a { padding: 2px 0; display: block; font-size: 14px; white-space: nowrap; }
+/* line 165, ../../jade/scss/_header.scss */
+#header .sub-menu li a span { padding-left: 12px; }
+/* line 171, ../../jade/scss/_header.scss */
+#header .sub-menu .cus-center { position: relative; top: 2px; }
+/* line 175, ../../jade/scss/_header.scss */
+#header .sub-menu li:hover, #header .sub-menu .active-submenu { color: #e74c3c; }
+/* line 178, ../../jade/scss/_header.scss */
+#header .sub-menu li:hover i, #header .sub-menu .active-submenu i { background-position-y: -30px; }
+/* line 183, ../../jade/scss/_header.scss */
+#header .sub-menu li:hover .cus-center { position: relative; top: 0px; }
+
+/* line 1, ../../jade/scss/_footer.scss */
+section#info-footer { padding: 20px 0 0; border-bottom: 1px solid #525252; border-top: 1px solid #525252; }
+/* line 5, ../../jade/scss/_footer.scss */
+section#info-footer .content li { display: inline-block; }
+/* line 8, ../../jade/scss/_footer.scss */
+section#info-footer .title { color: #bdbdbd; margin-bottom: 15px; }
+/* line 14, ../../jade/scss/_footer.scss */
+section#info-footer .payment-method .content img { width: 82px; padding: 0 5px; }
+/* line 22, ../../jade/scss/_footer.scss */
+section#info-footer .social-media .title { margin-left: 20px; }
+/* line 25, ../../jade/scss/_footer.scss */
+section#info-footer .social-media .content { margin: 15px 0 15px 20px; }
+/* line 27, ../../jade/scss/_footer.scss */
+section#info-footer .social-media .content li { padding-right: 14px; margin-bottom: 10px; }
+
+/* line 34, ../../jade/scss/_footer.scss */
+section#copyright { text-align: center; font-size: 13px; color: #bdbdbd; line-height: 15px; padding: 10px 0; }
+
+/* line 1, ../../jade/scss/_home.scss */
+section#main-slider img { width: 100%; }
+
+/* line 5, ../../jade/scss/_home.scss */
+.home-page { padding-top: 10px; background: url("img/bg-home.jpg") repeat; }
+
+/* line 10, ../../jade/scss/_home.scss */
+article.news { text-transform: uppercase; font-size: 30px; border-radius: 2px; margin-bottom: 10px; }
+/* line 18, ../../jade/scss/_home.scss */
+article.news figure { position: relative; }
+/* line 20, ../../jade/scss/_home.scss */
+article.news figure img { width: 100%; height: auto; border-radius: 4px; }
+/* line 25, ../../jade/scss/_home.scss */
+article.news figure .news-image { display: block; line-height: 0; position: relative; }
+/* line 48, ../../jade/scss/_home.scss */
+article.news figure .news-title { background: rgba(0, 0, 0, 0.7); display: block; position: absolute; width: 100%; bottom: 0; font-size: 15px; color: #e4b31e; min-height: 60px; padding: 10px; box-sizing: border-box; text-align: center; }
+/* line 62, ../../jade/scss/_home.scss */
+article.news .news-type { text-align: center; font-size: 20px; font-weight: 800; padding: 8px; border: 1px solid #303030; position: relative; }
+/* line 69, ../../jade/scss/_home.scss */
+article.news .news-type:hover:before, article.news .news-type:hover:after { border-bottom: 41px solid #404040; border-left: 36px solid transparent; content: ''; display: block; position: absolute; top: 0; background: transparent; right: -3px; }
+/* line 80, ../../jade/scss/_home.scss */
+article.news .news-type:hover:before { border-bottom: 42px solid #222d39; border-left: 37px solid transparent; right: -2px; top: -3px; }
+/* line 86, ../../jade/scss/_home.scss */
+article.news .news-type a { display: block; font-size: 20px; }
+/* line 90, ../../jade/scss/_home.scss */
+article.news .news-type:hover { background: #e74c3c; }
+
+/* line 1, ../../jade/scss/_help.scss */
+.help-page { padding: 20px 0; font-family: 'Roboto'; }
+/* line 5, ../../jade/scss/_help.scss */
+.help-page .help-menu li { background: #b7b7b7; margin: 10px 0px; border-radius: 5px; padding: 9px 0px; font-size: 14px; color: #333333; }
+/* line 12, ../../jade/scss/_help.scss */
+.help-page .help-menu li span { font-weight: 500; }
+/* line 14, ../../jade/scss/_help.scss */
+.help-page .help-menu li span i { float: left; margin: 0 20px; }
+/* line 20, ../../jade/scss/_help.scss */
+.help-page .help-menu li:first-child { margin-top: 0px; }
+/* line 24, ../../jade/scss/_help.scss */
+.help-page .help-right { background: #e1e1e1; border-radius: 5px; padding-bottom: 25px; margin-bottom: 30px; }
+/* line 29, ../../jade/scss/_help.scss */
+.help-page .help-right p { color: #333333; font-size: 13px; line-height: 20px; padding: 5px 15px; }
+/* line 35, ../../jade/scss/_help.scss */
+.help-page .help-right h4.title-help { margin: 20px 0px; font-weight: bold; padding: 5px 15px; color: #333333; font-size: 13px; }
+/* line 42, ../../jade/scss/_help.scss */
+.help-page .help-right h3 { background: #b7b7b7; color: #000000; font-weight: bolder; border-radius: 5px 5px 0px 0px; font-size: 16px; border-bottom: 1px solid #a5a5a5; padding: 5px 15px; box-shadow: 0px 1px 0px 0px #c3c3c3; text-transform: uppercase; }
+
+/* line 2, ../../jade/scss/_daily.scss */
+.sport_page img { width: 100%; }
+/* line 5, ../../jade/scss/_daily.scss */
+.sport_page .banner_header { margin-bottom: 5px; }
+/* line 8, ../../jade/scss/_daily.scss */
+.sport_page .credit-paid { padding: 25px 45px; background: #34495e; border-radius: 5px; }
+/* line 12, ../../jade/scss/_daily.scss */
+.sport_page .credit-paid ul { width: 50%; margin-bottom: 25px; float: left; }
+/* line 16, ../../jade/scss/_daily.scss */
+.sport_page .credit-paid ul li { padding: 0 0 10px 0px; font-size: 16px; font-weight: 500; }
+/* line 20, ../../jade/scss/_daily.scss */
+.sport_page .credit-paid ul li i { border: 1px solid red; width: 6px; height: 5px; margin-top: 5px; display: block; background: red; float: left; border-radius: 50%; margin-right: 20px; }
+/* line 34, ../../jade/scss/_daily.scss */
+.sport_page .credit-paid .require span { font-size: 14px; color: #e74c3c; margin-top: 22px; display: block; }
+/* line 43, ../../jade/scss/_daily.scss */
+.sport_page .sport_right img { margin-bottom: 5px; }
+
+/* line 1, ../../jade/scss/_contact.scss */
+.contact-page { font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 22px; padding-top: 20px; padding-bottom: 30px; border-radius: 5px; box-shadow: 0px 1px 0px 0px #252525; }
+/* line 9, ../../jade/scss/_contact.scss */
+.contact-page .content-contact-page { background-color: #232f3b; }
+/* line 13, ../../jade/scss/_contact.scss */
+.contact-page .contact-map iframe { width: 100%; margin: 24px 0 24px 10px; height: 522px; }
+/* line 19, ../../jade/scss/_contact.scss */
+.contact-page .contact-content { margin-left: 40px; width: 547px; }
+/* line 22, ../../jade/scss/_contact.scss */
+.contact-page .contact-content figure#logo { border-bottom: 1px solid #FFFFFF; padding: 24px 0 20px 0; margin-bottom: 18px; }
+/* line 27, ../../jade/scss/_contact.scss */
+.contact-page .contact-content > p { margin-bottom: 20px; }
+/* line 30, ../../jade/scss/_contact.scss */
+.contact-page .contact-content .company-address { border-bottom: 1px solid #FFFFFF; padding-bottom: 20px; margin-bottom: 20px; }
+/* line 34, ../../jade/scss/_contact.scss */
+.contact-page .contact-content .company-address label { display: block; margin-bottom: 10px; }
+/* line 38, ../../jade/scss/_contact.scss */
+.contact-page .contact-content .company-address p { color: #e74c3c; }
+/* line 43, ../../jade/scss/_contact.scss */
+.contact-page .contact-content .social > div { display: inline-block; width: 98px; text-align: center; margin-bottom: 20px; }
+/* line 48, ../../jade/scss/_contact.scss */
+.contact-page .contact-content .social > div span { display: block; font-size: 11px; color: #e74c3c; }
+
+/* line 1, ../../jade/scss/_member_new.scss */
+.widraw-page { font-family: 'Roboto', sans-serif; font-size: 12px; color: #636363; line-height: 22px; padding-top: 55px; padding-bottom: 100px; border-radius: 5px; box-shadow: 0px 1px 0px 0px #252525; }
+/* line 10, ../../jade/scss/_member_new.scss */
+.widraw-page .grid_6 { width: 488px; }
+/* line 13, ../../jade/scss/_member_new.scss */
+.widraw-page .content-widraw-page { background-color: #e1e1e1; padding: 18px 18px 48px 18px; }
+/* line 18, ../../jade/scss/_member_new.scss */
+.widraw-page .content-widraw-page h4.sub-title { font-size: 14px; color: #333333; text-transform: uppercase; }
+/* line 25, ../../jade/scss/_member_new.scss */
+.widraw-page .content-widraw-page .form-control .bank-list div { display: inline-block; width: 56px; padding-right: 5px; }
+/* line 29, ../../jade/scss/_member_new.scss */
+.widraw-page .content-widraw-page .form-control .bank-list div img { width: 100%; }
+/* line 34, ../../jade/scss/_member_new.scss */
+.widraw-page .content-widraw-page .form-control.birthday div { width: 78px; margin-right: 5px; }
+/* line 37, ../../jade/scss/_member_new.scss */
+.widraw-page .content-widraw-page .form-control.birthday div .k-widget { width: 78px; }
+/* line 41, ../../jade/scss/_member_new.scss */
+.widraw-page .content-widraw-page .form-control.birthday div:last-child select { padding-left: 2px; }
+
+/* line 50, ../../jade/scss/_member_new.scss */
+h3.title { display: block; background: #b7b7b7; color: #000000; font-weight: bolder; border-radius: 5px 5px 0px 0px; font-size: 16px; padding: 10px 0 10px 15px; box-shadow: 0px 1px 0px 0px #c3c3c3; text-transform: uppercase; }
+/* line 60, ../../jade/scss/_member_new.scss */
+h3.title i { float: right; }
+
+/* line 65, ../../jade/scss/_member_new.scss */
+.line { border-bottom: 3px solid #cccccc; margin: 18px 0; display: block; border-top: 1px solid #999999; width: 400px; }
+
+/* line 73, ../../jade/scss/_member_new.scss */
+.form-control { margin-bottom: 6px; }
+/* line 75, ../../jade/scss/_member_new.scss */
+.form-control label { width: 148px; display: inline-block; vertical-align: middle; }
+/* line 80, ../../jade/scss/_member_new.scss */
+.form-control .select-style { background: url(img/polygon.png) no-repeat 94% #fff; display: inline-block; border-radius: 3px; overflow: hidden; vertical-align: middle; }
+/* line 86, ../../jade/scss/_member_new.scss */
+.form-control .select-style .k-widget { width: 250px; }
+/* line 88, ../../jade/scss/_member_new.scss */
+.form-control .select-style .k-widget span.k-dropdown-wrap { height: 30px; background-color: #fff; }
+/* line 91, ../../jade/scss/_member_new.scss */
+.form-control .select-style .k-widget span.k-dropdown-wrap span.k-input { padding-top: 6px; padding-left: 2px; }
+/* line 98, ../../jade/scss/_member_new.scss */
+.form-control input { width: 238px; height: 30px; padding: 0; border: 1px solid #bdbdbd; padding: 0 5px; }
+/* line 105, ../../jade/scss/_member_new.scss */
+.form-control .btn-submit { width: 90px; color: #fff; background: #e74c3c; border: none; cursor: pointer; padding: 3px 0; text-align: center; border-radius: 3px; position: relative; left: 150px; }
+
+/* line 118, ../../jade/scss/_member_new.scss */
+.k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-list > .k-state-selected, .k-list > .k-state-highlight, .k-panel > .k-state-selected, .k-ghost-splitbar-vertical, .k-ghost-splitbar-horizontal, .k-draghandle.k-state-selected:hover, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-marquee-color { background-color: #e74c3c; }
+
+/* line 121, ../../jade/scss/_member_new.scss */
+.k-list { background-color: #fff; }
+
+/* line 1, ../../jade/scss/_sport.scss */
+#banner-sport { position: relative; }
+/* line 3, ../../jade/scss/_sport.scss */
+#banner-sport img { width: 100%; }
+
+/* line 8, ../../jade/scss/_sport.scss */
+.sport-page { padding: 15px 0 35px 0; }
+/* line 11, ../../jade/scss/_sport.scss */
+.sport-page aside.sport_right img { width: 100%; }
+/* line 14, ../../jade/scss/_sport.scss */
+.sport-page .iframe { -webkit-overflow-scrolling: touch; overflow-y: scroll; height: 900px; }
+/* line 19, ../../jade/scss/_sport.scss */
+.sport-page iframe#iframe { width: 100%; height: 100%; }
+/* line 23, ../../jade/scss/_sport.scss */
+.sport-page .desc-info { font-size: 12px; line-height: 15px; background: #34495e; }
+/* line 27, ../../jade/scss/_sport.scss */
+.sport-page .desc-info a { font-size: 12px; }
+/* line 29, ../../jade/scss/_sport.scss */
+.sport-page .desc-info a:hover { color: #e74c3c; }
+/* line 34, ../../jade/scss/_sport.scss */
+.sport-page .iframe { background: #223851; }
+/* line 37, ../../jade/scss/_sport.scss */
+.sport-page .iframe, .sport-page .desc-info { padding: 15px; }
+/* line 42, ../../jade/scss/_sport.scss */
+.sport-page aside.account-trial { border: 1px solid #e74c3c; margin-bottom: 10px; }
+/* line 47, ../../jade/scss/_sport.scss */
+.sport-page h3.title-account-trial { background: #e74c3c; padding: 10px 20px; text-transform: uppercase; font-size: 15px; font-weight: 500; }
+/* line 55, ../../jade/scss/_sport.scss */
+.sport-page .content-account-trial { font-size: 13px; }
+/* line 57, ../../jade/scss/_sport.scss */
+.sport-page .content-account-trial li { padding: 10px 15px; }
+/* line 59, ../../jade/scss/_sport.scss */
+.sport-page .content-account-trial li span:first-child { padding-right: 10px; }
+/* line 62, ../../jade/scss/_sport.scss */
+.sport-page .content-account-trial li p { margin-bottom: 5px; }
+/* line 65, ../../jade/scss/_sport.scss */
+.sport-page .content-account-trial li:nth-child(odd) { background: #34495e; }
+/* line 68, ../../jade/scss/_sport.scss */
+.sport-page .content-account-trial li:nth-child(even) { background: #223851; }
+
+/* line 1, ../../jade/scss/_signin_signup.scss */
+.signin-page { font-family: 'Roboto', sans-serif; font-size: 12px; color: #636363; line-height: 22px; background-color: #e1e1e1; margin-top: 20px; margin-bottom: 100px; border-radius: 5px; box-shadow: 0px 1px 0px 0px #252525; }
+/* line 11, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content { padding: 18px 60px  50px 60px; }
+/* line 13, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content h4.sub-title { font-size: 14px; color: #333333; text-transform: uppercase; }
+/* line 18, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .line { width: 408px; }
+/* line 21, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .signin-right { margin-left: 57px; }
+/* line 24, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control { margin-bottom: 10px; }
+/* line 26, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control .select-style { background: url(img/polygon.png) no-repeat 98% #fff; }
+/* line 29, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control .k-widget { width: 257px; text-transform: uppercase; }
+/* line 33, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.birthday { width: 100%; margin-right: 5px; }
+/* line 36, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.birthday .k-widget { width: 77px; }
+/* line 39, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.birthday .select-style { background: url(img/polygon.png) no-repeat 94% #fff; margin-right: 10px; }
+/* line 45, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit label { vertical-align: top; }
+/* line 49, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .checkbox-style .icon-checkbox { background: url("img/icon-sprite.png") no-repeat -183px -15px; }
+/* line 52, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .checkbox-style .checkbox-text { margin-left: 5px; }
+/* line 54, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .checkbox-style .checkbox-text p { display: inline-block; }
+/* line 58, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .checkbox-style .checkbox-input:checked + .icon-checkbox { background-position: -183px 0px; }
+/* line 62, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .credit-list { display: inline-block; width: 246px; }
+/* line 65, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .credit-list div { margin-bottom: 6px; }
+/* line 67, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .credit-list div input { width: 13px; height: 13px; }
+/* line 71, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .credit-list div p { display: inline-block; color: #000000; font-size: 13px; }
+/* line 75, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.credit .credit-list div p:last-child { color: #999999; font-size: 12px; }
+/* line 83, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.get-info { color: #000; }
+/* line 86, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.get-info .checkbox-style .icon-checkbox { background: url("img/icon-sprite.png") no-repeat -180px -92px; }
+/* line 89, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.get-info .checkbox-style .checkbox-input:checked + .icon-checkbox { background-position: -180px -78px; }
+/* line 93, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.get-info input { width: 13px; height: 13px; vertical-align: top; }
+/* line 100, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.get-info div:last-child label .icon-checkbox { margin-top: -68px; }
+/* line 105, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.get-info p { display: inline-block; width: 355px; }
+/* line 110, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.get-info span:nth-child(1), .signin-page .signin-content .form-control.get-info span:nth-child(3) { color: #e74c3c; }
+/* line 116, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.btn-submit { width: 146px; }
+/* line 120, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control.capcha > div { margin: 10px 0 30px 150px; }
+/* line 124, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control input { width: 246px; }
+/* line 127, ../../jade/scss/_signin_signup.scss */
+.signin-page .signin-content .form-control select { width: 257px; text-transform: uppercase; }
+/* line 133, ../../jade/scss/_signin_signup.scss */
+.signin-page .checkbox-style { width: 100%; }
+/* line 135, ../../jade/scss/_signin_signup.scss */
+.signin-page .checkbox-style * { vertical-align: middle; cursor: pointer; }
+/* line 139, ../../jade/scss/_signin_signup.scss */
+.signin-page .checkbox-style .checkbox-input { display: none; }
+/* line 142, ../../jade/scss/_signin_signup.scss */
+.signin-page .checkbox-style .icon-checkbox { width: 14px; height: 14px; display: inline-block; background: url("img/icon-sprite.png") no-repeat -180px -92px; }
+/* line 148, ../../jade/scss/_signin_signup.scss */
+.signin-page .checkbox-style .checkbox-text { margin-left: 10px; }
+/* line 151, ../../jade/scss/_signin_signup.scss */
+.signin-page .checkbox-style .checkbox-input:checked + .icon-checkbox { background-position: -180px -78px; }
+
+/* line 1, ../../jade/scss/_history.scss */
+.history-page { font-family: 'Roboto', sans-serif; font-size: 12px; color: #636363; line-height: 22px; background-color: #e1e1e1; margin-top: 55px; margin-bottom: 100px; border-radius: 5px; box-shadow: 0px 1px 0px 0px #252525; }
+/* line 11, ../../jade/scss/_history.scss */
+.history-page .history-content { padding: 20px; }
+/* line 14, ../../jade/scss/_history.scss */
+.history-page .history-content table thead tr th { font-weight: bold; }
+/* line 18, ../../jade/scss/_history.scss */
+.history-page .history-content table tr th { padding: 10px 0; width: 190px; text-align: left; }
+/* line 22, ../../jade/scss/_history.scss */
+.history-page .history-content table tr th:last-child { width: 420px; }
+/* line 28, ../../jade/scss/_history.scss */
+.history-page .history-content table tbody tr { border-top: 1px solid #ccc; }
+
+/* line 1, ../../jade/scss/_bet_history.scss */
+.bet-history-page { font-family: 'Roboto', sans-serif; font-size: 12px; color: #636363; line-height: 22px; background-color: #e1e1e1; margin-top: 55px; margin-bottom: 100px; border-radius: 5px; box-shadow: 0px 1px 0px 0px #252525; }
+/* line 11, ../../jade/scss/_bet_history.scss */
+.bet-history-page .bet-history-content { padding: 20px; }
+/* line 13, ../../jade/scss/_bet_history.scss */
+.bet-history-page .bet-history-content .bet-history-left, .bet-history-page .bet-history-content .bet-history-right { width: 470px; display: inline-block; }
+/* line 17, ../../jade/scss/_bet_history.scss */
+.bet-history-page .bet-history-content .bet-history-left .provider, .bet-history-page .bet-history-content .bet-history-right .provider { color: #bb0000; border-bottom: 1px solid #cccccc; padding: 0 0 10px 0; }
+/* line 22, ../../jade/scss/_bet_history.scss */
+.bet-history-page .bet-history-content .bet-history-left .account, .bet-history-page .bet-history-content .bet-history-right .account { padding: 10px 0; }
+/* line 24, ../../jade/scss/_bet_history.scss */
+.bet-history-page .bet-history-content .bet-history-left .account i, .bet-history-page .bet-history-content .bet-history-right .account i { float: right; cursor: pointer; }
+/* line 30, ../../jade/scss/_bet_history.scss */
+.bet-history-page .bet-history-content .bet-history-left { margin-right: 44px; }
+
+/* line 1, ../../jade/scss/_account_info.scss */
+.account-info-page { font-family: 'Roboto', sans-serif; font-size: 12px; color: #636363; line-height: 22px; background-color: #e1e1e1; margin-top: 55px; margin-bottom: 100px; border-radius: 5px; box-shadow: 0px 1px 0px 0px #252525; }
+/* line 11, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content { padding: 20px; }
+/* line 13, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left, .account-info-page .account-info-content .account-info-right { width: 470px; display: inline-block; vertical-align: top; }
+/* line 18, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left li, .account-info-page .account-info-content .account-info-right li { padding: 10px 0; border-top: 1px solid #ccc; }
+/* line 21, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left li .edit, .account-info-page .account-info-content .account-info-right li .edit { float: right; margin-right: 20px; color: #e74c3c; }
+/* line 26, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left li:first-child, .account-info-page .account-info-content .account-info-right li:first-child { border-top: none; padding-top: 0; }
+/* line 30, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left li .comment, .account-info-page .account-info-content .account-info-right li .comment { float: right; position: relative; }
+/* line 33, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left li .comment i, .account-info-page .account-info-content .account-info-right li .comment i { margin-right: 16px; cursor: pointer; }
+/* line 37, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left li .comment p, .account-info-page .account-info-content .account-info-right li .comment p { position: absolute; border: 1px solid #ccc; width: 140px; text-align: center; background: #fff; border-radius: 3px; padding: 4px; line-height: 20px; top: -55px; left: -67px; }
+/* line 48, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left li .comment p:after, .account-info-page .account-info-content .account-info-right li .comment p:after { position: absolute; content: ''; width: 0; height: 0; border-bottom: 12px solid transparent; border-right: 12px solid #FFFFFF; right: 60px; bottom: -5px; transform: rotate(135deg); }
+/* line 59, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left li .comment p:before, .account-info-page .account-info-content .account-info-right li .comment p:before { position: absolute; content: ''; width: 0; height: 0; border-bottom: 12px solid transparent; border-right: 12px solid #cccccc; right: 60px; bottom: -7px; transform: rotate(135deg); }
+/* line 74, ../../jade/scss/_account_info.scss */
+.account-info-page .account-info-content .account-info-left { margin-right: 44px; }
+
+/* line 1, ../../jade/scss/_casino.scss */
+.casino-page { font-size: 12px; font-family: 'Roboto', sans-serif; }
+/* line 4, ../../jade/scss/_casino.scss */
+.casino-page img { width: 100%; }
+/* line 7, ../../jade/scss/_casino.scss */
+.casino-page .casino-banner { position: relative; }
+/* line 9, ../../jade/scss/_casino.scss */
+.casino-page .casino-banner .download-banner, .casino-page .casino-banner .play-main-banner { position: absolute; bottom: 30%; right: 23%; display: block; width: 221px; background: transparent; height: 40px; /* color: transparent; */ text-indent: -99999px; }
+/* line 21, ../../jade/scss/_casino.scss */
+.casino-page .casino-banner .download-banner { bottom: 15%; }
+/* line 24, ../../jade/scss/_casino.scss */
+.casino-page .casino-banner .play-download { position: absolute; top: 18%; right: 19%; text-transform: uppercase; text-align: center; }
+/* line 30, ../../jade/scss/_casino.scss */
+.casino-page .casino-banner .play-download h2 { font-size: 90px; display: block; line-height: 72px; }
+/* line 36, ../../jade/scss/_casino.scss */
+.casino-page .casino-banner .play-download a { color: #000; display: block; border-radius: 23px; width: 250px; margin: 0 auto; padding: 12px 0; font-size: 30px; margin-top: 20px; }
+/* line 45, ../../jade/scss/_casino.scss */
+.casino-page .casino-banner .play-download a:nth-child(2) { text-shadow: 0px 2px 2px #C2931B; box-shadow: 0px 2px 0px #92760b; background: -moz-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%); /* ff3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe100), color-stop(100%, #ff9e00)); /* safari4+,chrome */ background: -webkit-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%); /* safari5.1+,chrome10+ */ background: -o-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%); /* opera 11.10+ */ background: -ms-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%); /* ie10+ */ background: linear-gradient(180deg, #ffe100 0%, #ff9e00 100%); /* w3c */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe100', endColorstr='#ff9e00', GradientType=0); /* ie6-9 */ }
+/* line 56, ../../jade/scss/_casino.scss */
+.casino-page .casino-banner .play-download a:nth-child(3) { text-shadow: 0px 2px 2px #6ca800; box-shadow: 0px 2px 0px #5b6600; background: -moz-linear-gradient(270deg, #c7ee00 0%, #65c600 100%); /* ff3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c7ee00), color-stop(100%, #65c600)); /* safari4+,chrome */ background: -webkit-linear-gradient(270deg, #c7ee00 0%, #65c600 100%); /* safari5.1+,chrome10+ */ background: -o-linear-gradient(270deg, #c7ee00 0%, #65c600 100%); /* opera 11.10+ */ background: -ms-linear-gradient(270deg, #c7ee00 0%, #65c600 100%); /* ie10+ */ background: linear-gradient(180deg, #c7ee00 0%, #65c600 100%); /* w3c */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ee00', endColorstr='#65c600',GradientType=0 ); /* ie6-9 */ }
+/* line 71, ../../jade/scss/_casino.scss */
+.casino-page .casino-content .game { position: relative; margin-top: 8px; }
+/* line 74, ../../jade/scss/_casino.scss */
+.casino-page .casino-content .game .game-info { position: absolute; top: 0; left: 0; width: 188px; padding: 10px; }
+/* line 80, ../../jade/scss/_casino.scss */
+.casino-page .casino-content .game .game-info h4.title { font-size: 18px; text-transform: uppercase; margin-bottom: 6px; }
+/* line 85, ../../jade/scss/_casino.scss */
+.casino-page .casino-content .game .game-info p { line-height: 17px; border-bottom: 1px solid #fff; color: #dddddd; text-align: justify; margin-bottom: 10px; padding-bottom: 10px; }
+/* line 93, ../../jade/scss/_casino.scss */
+.casino-page .casino-content .game .game-info a { position: relative; display: block; width: 150px; border-radius: 23px; text-align: center; padding: 6px 0; text-transform: uppercase; color: #000; font-weight: bold; font-size: 16px; text-shadow: 0px 2px 2px #C2931B; box-shadow: 0px 2px 0px #92760b; background: -moz-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%); /* ff3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe100), color-stop(100%, #ff9e00)); /* safari4+,chrome */ background: -webkit-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%); /* safari5.1+,chrome10+ */ background: -o-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%); /* opera 11.10+ */ background: -ms-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%); /* ie10+ */ background: linear-gradient(180deg, #ffe100 0%, #ff9e00 100%); /* w3c */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe100', endColorstr='#ff9e00', GradientType=0); /* ie6-9 */ }
+/* line 113, ../../jade/scss/_casino.scss */
+.casino-page .casino-content .game .game-info a:after { position: absolute; content: ''; width: 0; height: 0; border-top: 10px solid rgba(2, 1, 1, 0); border-left: 10px solid #000; right: 16px; top: 11px; transform: rotate(224deg); }
+
+/*# sourceMappingURL=style.css.map */

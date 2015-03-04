@@ -1,0 +1,115 @@
+.casino-page {
+  img {
+    width: 100%;
+  }
+  color: #000;
+  font-size: 14px;
+  .background {
+    position: relative;
+    margin-top: -5px;
+    a {
+      display: block;
+      position: absolute;
+      width: 26%;
+      top: 55%;
+      left: 39%;
+      &:last-child {
+        top: 66%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  #tabs {
+    margin-top: -2px;
+    ul {
+      text-transform: uppercase;
+      display: table;
+      width: 100%;
+      li {
+        display: table-cell;
+        font-weight: bold;
+        text-align: center;
+        background-color: #eeeeee;
+        vertical-align: middle;
+        width: 25%;
+        .table-cell {
+          display: inline-block;
+          a {
+            width: 100%;
+            font-size: 12px;
+            height: 30px;
+            display: table-cell;
+            padding: 15px 0;
+            line-height: 16px;
+            vertical-align: middle;
+            &:focus {
+              outline: 0;
+            }
+          }
+        }
+        &.ui-tabs-active {
+          color: #FFFFFF;
+          background-color: $orange;
+          border: none;
+        }
+      }
+    }
+    .content {
+      padding: 12px;
+      .play-now {
+        margin-bottom: 10px;
+        position: relative;
+        a {
+          width: 32%;
+          position: absolute;
+          top: 32%;
+          left: 8%;
+        }
+      }
+      .casino-bxslider {
+        li {
+          background-color: #FFFFFF;
+          img {
+            width: 80%;
+            margin-left: 10%;
+          }
+        }
+      }
+      .bx-pager {
+        display: none;
+      }
+      .bx-next {
+        background: url(img/icon-sprite.png) no-repeat -222px -78px !important;
+        right: -5px;
+      }
+      .bx-prev {
+        background: url(img/icon-sprite.png) no-repeat -196px -78px !important;
+        left: -5px;
+      }
+      .bx-caption {
+        width: 80%;
+        margin-left: 10%;
+        span {
+          text-transform: capitalize;
+          font-family: 'Roboto', sans-serif;
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+      .description {
+        margin: 27px 0 48px 0;
+        h3.title {
+          text-align: left;
+          font-weight: 400;
+        }
+        p {
+          color: #636363;
+          line-height: 17px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

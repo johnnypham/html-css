@@ -1,0 +1,107 @@
+$fontColorMain: #FFF;
+$orange: #e74c3c;
+$blue: #34495e;
+$yellow: #e4b31e;
+$darkBlue: #223851;
+$font-size-main: 13px;
+$line-height-main: 22px;
+body {
+  color: $fontColorMain;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 768px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: $font-size-main;
+  line-height: 22px;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h4 {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  color: $fontColorMain;
+  cursor: pointer;
+}
+
+.btn-orange {
+  background: $orange;
+}
+.orange {
+  color: $orange;
+  padding-left: 2px;
+}
+.btn-blue {
+  background: $blue;
+}
+
+input,
+textarea,
+select {
+  border-radius: 3px;
+  border: 0;
+  padding: 7px;
+  color: #757575;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bg-blue {
+  background: $darkBlue;
+}
+
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+  color: #757575;
+}
+
+.main-body {
+  background: url('img/bg-body.jpg') repeat;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.content-tooltip {
+  display: none;
+}
+.tooltip:hover + .content-tooltip {
+  display: block;
+}

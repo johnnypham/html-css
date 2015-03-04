@@ -1,0 +1,87 @@
+.history-page {
+  color: #636363;
+  font-size: 12px;
+  .header {
+    background: #b7b7b7;
+    border-bottom: 1px solid #919191;
+    padding: 16px 12px;
+    color: #3d3d3d;
+    i {
+      vertical-align: middle;
+      zoom: 68%;
+      display: inline-block;
+    }
+    span {
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .account {
+      display: inline-block;
+      position: relative;
+      left: 0;
+
+    }
+    .transfer {
+      display: inline-block;
+      position: relative;
+      right: 0;
+      float: right;
+      span:nth-child(2) {
+        margin-right: 10px;
+      }
+    }
+  }
+  h3.title {
+    text-align: left;
+  }
+  .line {
+    border-bottom: 3px solid #f1f1f1;
+  }
+  .history-content {
+    padding: 12px;
+    background-color: #e1e1e1;
+    .bet-history {
+      li {
+        border-bottom: 1px solid #cccccc;
+        padding: 15px 0;
+        &.provider {
+          color: $orange;
+        }
+        i {
+          float: right;
+          position: relative;
+          top: -5px;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+    .transfer-history {
+      margin-top: 30px;
+      table {
+        border: 1px solid #cccccc;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 15px;
+        th {
+          padding: 10px;
+          border-top: 1px solid #cccccc;
+          &:last-child {
+            width: 60%;
+          }
+          &:first-child {
+            font-weight: bold;
+            color: #000000;
+          }
+        }
+        thead {
+          background-color: #d2d2d2;
+        }
+        tbody {
+          background-color: #FFFFFF;
+        }
+      }
+    }
+  }
+}

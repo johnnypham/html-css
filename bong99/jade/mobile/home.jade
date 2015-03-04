@@ -1,0 +1,37 @@
+extends layout
+block title
+  title Bong99 | Home
+block main
+  .container
+      .home-page
+        .login
+          form
+            .form-control
+              input(type="text", name="", placeholder="Username")
+            .form-control
+              input(type="text", name="", placeholder="Password")
+            .form-control
+              a.btn.btn-blue(href="") Đăng ký
+              a.btn.btn-orange(href="") Đăng nhập
+        ul.services-list
+          li
+            a(href="sport.html")
+              img(src='images/sport.jpg' width='' height='165' alt='bong99')
+              span Sports
+          li
+            a(href="casino.html")
+              img(src='images/casino.jpg' width='' height='164' alt='bong99')
+              span Casino
+          li
+            a(href="bank.html")
+              img(src='images/bank.jpg' width='' height='162' alt='bong99')
+              span Ngân Hàng
+          li
+            a(href="agent.html")
+              img(src='images/agent.jpg' width='' height='164' alt='bong99')
+              span Đại Lý
+        .home-background
+          img(src='images/home-background.jpg' width='' height='433' alt='bong99')
+        .home-app
+          a.btn.btn-orange(href="") APP Bong99
+          a.btn.btn-orange(href="") APP Bong88

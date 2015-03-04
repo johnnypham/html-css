@@ -1,0 +1,39 @@
+extends layout
+block title
+  title Bong99 | Home
+block slider
+  .container_12
+    .grid_12
+      section#main-slider
+        ul.slider
+          li: a(href=''): img(src='images/banner1.png' alt='content banner')
+          li: a(href=''): img(src='images/banner2.png' alt='content banner')
+          li: a(href=''): img(src='images/banner3.png' alt='content banner')
+    .clearfix
+block main
+  section.home-page
+    .container_12
+      - var object = {}
+      - object['sports'] = [{'title':'Tỉ lệ cược cao nhất giao diện dễ nhìn dễ','images':'sport'},{'title':'That la de nhin','images':'sport1'},{'title':'That la de nhin','images':'sport3'}]
+      - object['casino'] = [{'title':'đầy đủ các trò chơi sòng bài thực và ảo','images':'casino'},{'title':'Ao dieu vo cung','images':'casino1'},{'title':'That la de nhin','images':'casino3'}]
+      - object['trợ giúp'] = [{'title':'bạn tìm hiểu cách đăng ký & sử dụng 388bet, bong88?','images':'help'},{'title':'Rat de dang dang ky','images':'help1'},{'title':'That la de nhin','images':'help3'}]
+      - object['hoa hồng'] = [{'title':'hoa hồng cực  cách tính hoa hồng x5 x6','images':'hoahong'},{'title':'That la cao qua di','images':'hoahong1'},{'title':'That la de nhin','images':'hoahong3'}]
+      - object['liên hệ'] = [{'title':'hỗ trợ chuyên nghiệp & nhanh chóng hotline 09xxxxxxx yahoo hotro','images':'contact'},{'title':'Call me now','images':'hotro'},{'title':'That la de nhin','images':'hotro3'}]
+      - object['đại lý'] = [{'title':'bạn muốn làm giàu','images':'franchise'},{'title':'Tat nhien roi','images':'franchise1'},{'title':'That la de nhin','images':'franchise3'}]
+      each val , index in object
+        .grid_4
+          article.news
+            each items in val
+              figure.figure-news
+                a.news-image(href='#')
+                  img(src='images/banner-home/#{items.images}.png' height='204' width='328')
+                //a.news-title(href='#')
+                //  = items.title
+            //.news-type.bg-blue
+            //  a(href='#')= index
+    .clearfix
+
+
+
+
+

@@ -1,0 +1,15 @@
+@mixin tranformZ($deg) {
+  -webkit-transform: rotateZ($deg);
+  -moz-transform: rotateZ($deg);
+  -ms-transform: rotateZ($deg);
+  -o-transform: rotateZ($deg);
+  transform: rotateZ($deg);
+}
+@mixin boxsizing (){
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}

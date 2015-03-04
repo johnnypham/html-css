@@ -1,0 +1,57 @@
+.contact-page {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px #252525;
+  .content-contact-page{
+    background-color: #232f3b;
+  }
+  .contact-map {
+    iframe {
+      width: 100%;
+      margin: 24px 0 24px 10px;
+      height: 522px;
+    }
+  }
+  .contact-content {
+    margin-left: 40px;
+    width: 547px;
+    figure#logo {
+      border-bottom: 1px solid #FFFFFF;
+      padding: 24px 0 20px 0;
+      margin-bottom: 18px;
+    }
+    > p {
+      margin-bottom: 20px;
+    }
+    .company-address {
+      border-bottom: 1px solid #FFFFFF;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #e74c3c;
+      }
+    }
+    .social {
+      > div {
+        display: inline-block;
+        width: 98px;
+        text-align: center;
+        margin-bottom: 20px;
+        span {
+          display: block;
+          font-size: 11px;
+          color: #e74c3c;
+        }
+      }
+    }
+  }
+}
+

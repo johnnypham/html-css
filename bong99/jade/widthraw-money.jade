@@ -1,0 +1,115 @@
+extends layout
+block title
+  title Bong99 | Exchange
+block main
+  .container_12
+    .widraw-page
+      h3.title Nạp & Rút Tiền
+      .content-widraw-page
+        .grid_6.exchange-left
+          h4.sub-title Nạp Tiền
+          .line
+          form
+            .form-control
+              label Chọn tài khoản cá cược
+              .select-style
+                select.size
+                  option A
+                  option B
+            .form-control
+              label Chọn ngân hàng
+              .select-style
+                select.size
+                  option C
+                  option D
+            .form-control
+              label Số tài khoản
+              .select-style
+                select.size
+                  option C
+                  option D
+            .form-control
+              label Tên người gửi
+              input(type="text", name="")
+            .form-control
+              label Số tiền
+              input(type="text", name="")
+            .form-control
+              label Mã giao dịch
+              input(type="text", name="")
+            .form-control
+              label
+              div.btn-submit Nạp Tiền
+        .grid_6.exchange-right
+          h4.sub-title Rút Tiền
+          .line
+          form
+            .form-control
+              label Chọn tài khoản cá cược
+              .select-style
+                select.size
+                  option C
+                  option D
+            .form-control
+              label Chọn ngân hàng
+              .select-style
+                select.size
+                  option C
+                  option D
+            .form-control
+              label Tên người nhận
+              input(type="text", name="")
+            .form-control
+              label Số tài khoản
+              input(type="text", name="")
+            .form-control
+              label Số tiền
+              input(type="text", name="")
+            .form-control.birthday
+              label Xác nhận ngày sinh:
+              .select-style
+                select.size
+                  option 1
+                  option 2
+                  option 3
+                  option 4
+                  option 5
+                  option 6
+                  option 7
+                  option 8
+                  option 9
+              .select-style
+                select.size
+                  option 1
+                  option 2
+                  option 3
+                  option 4
+                  option 5
+                  option 6
+              .select-style
+                select.size
+                  option 1990
+                  option 1991
+                  option 1992
+                  option 1993
+                  option 1994
+                  option 1995
+            .form-control
+              label
+              div.btn-submit Rút Tiền
+        .clearfix
+block submenu
+  .wrapper-sub-menu
+    ul#menu-id-1.sub-menu
+      li.active-submenu: a(href='widthraw-money.html')
+        i.iconsp-money-white
+        span Nạp tiền, rút tiền
+      li: a(href='history.html')
+        i.iconsp-tranfer-white.cus-center
+        span Lịch sử giao dịch
+      li: a(href='bet_history.html')
+        i.iconsp-list-white
+        span Lịch sử cá cược hằng ngày
+      li: a(href='account_info.html')
+        i.iconsp-user-white.cus-center
+        span Thông tin tài khoản

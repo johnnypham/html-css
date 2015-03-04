@@ -1,0 +1,54 @@
+.help-page {
+  padding: 20px 0;
+  font-family: 'Roboto';
+  .help-menu {
+    li {
+      background: #b7b7b7;
+      margin: 10px 0px;
+      border-radius: 5px;
+      padding: 9px 0px;
+      font-size: 14px;
+      color: #333333;
+      span{
+        font-weight: 500;
+        i {
+          float: left;
+          margin: 0 20px;
+        }
+      }
+    }
+    li:first-child {
+      margin-top: 0px;
+    }
+  }
+  .help-right {
+    background: #e1e1e1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    p {
+      color: #333333;
+      font-size: 13px;
+      line-height: 20px;
+      padding: 5px 15px;
+    }
+    h4.title-help {
+      margin: 20px 0px;
+      font-weight: bold;
+      padding: 5px 15px;
+      color: #333333;
+      font-size: 13px;
+    }
+    h3 {
+      background: #b7b7b7;
+      color: #000000;
+      font-weight: bolder;
+      border-radius: 5px 5px 0px 0px;
+      font-size: 16px;
+      border-bottom: 1px solid #a5a5a5;
+      padding: 5px 15px;
+      box-shadow: 0px 1px 0px 0px #c3c3c3;
+      text-transform: uppercase;
+    }
+  }
+}

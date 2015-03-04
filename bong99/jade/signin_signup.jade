@@ -1,0 +1,103 @@
+extends layout
+block title
+  title Bong99 | Signin Signup
+block main
+  .container_12.signin-page
+    h3.title Đăng Ký Tài Khoản
+    .signin-content
+      form
+        .grid_5.signin-left
+          h4.sub-title Thông tin cá nhân
+          .line
+          .form-control
+            label Họ Tên
+            input(type="text", name="")
+          .form-control.birthday
+            label Ngày tháng năm sinh
+            .select-style
+              select.size
+                option Ngày
+            .select-style
+              select.size
+                option Tháng
+            .select-style
+              select.size
+                option Năm
+          .form-control
+            label Email
+            input(type="email", name="")
+          .form-control
+            label Nhập lại email
+            input(type="email", name="")
+          .form-control
+            label Quốc gia
+            .select-style
+              select.size
+                option Việt Nam
+          .form-control
+            label Số điện thoại 1
+            input(type="text", name="")
+          .form-control
+            label Số điện thoại 2
+            input(type="text", name="")
+        .grid_5.signin-right
+          h4.sub-title Thông tin tài khoản
+          .line
+          .form-control
+            label Tên đăng nhập
+            input(type="text", name="")
+          .form-control
+            label Mật khẩu
+            input(type="password", name="")
+          .form-control
+            label Nhập lại mật khẩu
+            input(type="password", name="")
+          .form-control.credit
+            label Chọn giá cho 1 credit
+            .credit-list
+              div
+                label.checkbox-style
+                  input.checkbox-input(name='term' type='radio', value='Term')
+                  span.icon-checkbox
+                  span.checkbox-text
+                    p 100.000đ
+                    p (hoa hồng nhân 5)
+              div
+                label.checkbox-style
+                  input.checkbox-input(name='term' type='radio', value='Term')
+                  span.icon-checkbox
+                  span.checkbox-text
+                    p 50.000đ
+                    p (hoa hồng nhân 4)
+              div
+                label.checkbox-style
+                  input.checkbox-input(name='term' type='radio', value='Term')
+                  span.icon-checkbox
+                  span.checkbox-text
+                    p 30.000đ
+                    p (hoa hồng nhân 3)
+          .form-control.capcha
+            label Nhập mã số sau
+            input(type="text", name="")
+            div
+              img(src='images/capcha.png' width='' height='' alt='bong99')
+              .iconsp-medium-refresh
+          .form-control.get-info
+            div
+              label.checkbox-style
+                input.checkbox-input(name='term' type='checkbox', value='Term')
+                span.icon-checkbox
+                span.checkbox-text Tôi muốn nhận thông tin khuyến mãi đặc biệt từ 388BET.
+            div
+              label.checkbox-style
+                input.checkbox-input(name='term' type='checkbox',value='Term')
+                span.icon-checkbox
+                p.checkbox-text Tôi xác nhận rằng tôi ít nhất 18 tuổi hoặc tuổi hợp pháp tại quốc gia mà tôi là công dân (hoăc tuổi nào cao hơn) , và tôi đã đọc, hiểu và chấp nhận &nbsp;
+                  span Điều Kiện và Giới Hạn, Luật Cá Cược Thể Thao &nbsp;
+                  span và &nbsp;
+                  span Điều Kiện và Giới Hạn Khuyến Mãi. &nbsp;
+          .form-control
+            label
+            div.btn-submit Đăng Ký
+        .clearfix
+

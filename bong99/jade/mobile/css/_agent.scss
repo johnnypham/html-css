@@ -1,0 +1,27 @@
+.agent-page {
+  img {
+    width: 100%;
+  }
+  .commission-list {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    i {
+      vertical-align: middle;
+      zoom: 80%;
+    }
+    span {
+      vertical-align: middle;
+      &.orange {
+        text-transform: lowercase;
+        font-weight: normal;
+        margin: 8px 0 30px 0;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}

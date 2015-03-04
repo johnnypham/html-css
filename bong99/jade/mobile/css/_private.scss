@@ -1,0 +1,174 @@
+.private-page {
+  color: #636363;
+  font-size: 12px;
+  h3.header {
+    background: #b7b7b7;
+    border-bottom: 1px solid #919191;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 0;
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h3.title {
+    text-align: left;
+  }
+  .line {
+    border-bottom: 3px solid #f1f1f1;
+  }
+  .private-content {
+    padding: 12px;
+    background-color: #e1e1e1;
+    .account-info {
+      li {
+        border-bottom: 1px solid #cccccc;
+        padding: 15px 0;
+        label {
+          color: #000;
+          display: inline-block;
+        }
+        span {
+          margin-left: 4px;
+          display: inline-block;
+        }
+        .edit {
+          display: inline-block;
+          color: $orange;
+          float: right;
+        }
+        i {
+          float: right;
+          position: relative;
+          top: -8px;
+          right: -2px;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+    .bet-history {
+      margin-top: 30px;
+      li {
+        border-bottom: 1px solid #cccccc;
+        padding: 15px 0;
+        &.provider {
+          color: $orange;
+        }
+        i {
+          float: right;
+          position: relative;
+          top: -5px;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+    .transfer-history {
+      margin-top: 30px;
+      table {
+        border: 1px solid #cccccc;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 15px;
+        th {
+          padding: 10px;
+          border-top: 1px solid #cccccc;
+          &:last-child {
+            width: 60%;
+          }
+        }
+        thead {
+          background-color: #d2d2d2;
+        }
+        tbody {
+          background-color: #FFFFFF;
+        }
+      }
+    }
+    .deposit {
+      margin-top: 30px;
+      font-size: 14px;
+      .form-control {
+        margin-bottom: 17px;
+        label {
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+        .select-style {
+          background: url(img/polygon.png) no-repeat 97% #fff;
+          display: inline-block;
+          border-radius: 3px;
+          width: 100%;
+          select {
+            background: transparent;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: 100%;
+            height: 34px;
+            border: 1px solid #bdbdbd;
+            font-size: 13px;
+            color: #000000;
+          }
+        }
+        input {
+          width: 100%;
+          border: 1px solid #ccc;
+          height: 34px;
+        }
+      }
+    }
+    .withdraw {
+      font-size: 14px;
+      margin-top: 30px;
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+      .form-control {
+        margin-bottom: 17px;
+        &.birthday {
+          .form-group {
+            display: table;
+            width: 100%;
+          }
+          .select-style {
+            display: table-cell;
+            width: 30%;
+            padding: 0 3px;
+            &:last-child {
+              padding-right: 0;
+            }
+            &:first-child {
+              padding-left: 0;
+            }
+          }
+          .k-widget {
+            width: 100%;
+          }
+          &:last-child {
+            select {
+              padding-left: 2px;
+            }
+          }
+        }
+        input {
+          width: 100%;
+          border: 1px solid #ccc;
+          height: 34px;
+        }
+      }
+    }
+    button {
+      width: 100%;
+      border-radius: 5px;
+      border: none;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 8px 0;
+      font-weight: bold;
+    }
+  }
+}

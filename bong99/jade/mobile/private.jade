@@ -1,0 +1,168 @@
+extends layout
+block title
+  title Bong99 | Private
+block main
+  .container
+    .private-page.page
+      h3.header Member
+      .private-content
+        .account-info
+          h3.title Thông tin tài khoản
+          .line
+          ul
+            li
+              label Email / Tên đăng nhập:
+              span Mohamad Ibrahim Movic
+              li
+                label Mật khẩu:&nbsp;
+                span 4350*********
+                a.edit(href='') edit
+              li
+                label Số điện thoại:
+                span 0123456789
+                a.edit(href='') edit
+              li
+                label Yahoo:
+                span Mohamad_Yeyeye
+                a.edit(href='') edit
+              li
+                label Wechat:
+                span Mohamad_012345
+                a.edit(href='') edit
+              li
+                label 1 Credit trị giá:
+                span 100k
+                i.iconsp-medium-comment.tooltip
+        .bet-history
+          h3.title Lịch sử cá cược hàng ngày
+          .line
+          ul
+            li.provider
+              span Bong88
+            li.accout
+              span Chưa có tài khoản
+            li.provider
+              span Sbonet
+            li.accout
+              span Chưa có tài khoản
+              i.iconsp-medium-question
+        .transfer-history
+          h3.title Lịch sử giao dịch
+          .line
+          table
+            thead
+              tr
+                th Ngày
+                th 11/06/2014
+            tbody
+              tr
+                th Ngân hàng
+                th Vietcombank
+              tr
+                th Số tiền
+                th 3.000.000 VND
+              tr
+                th Diễn giải
+                th Nạp tiền vào Sbobet
+          table
+            thead
+              tr
+                th Ngày
+                th 22/09/2014
+            tbody
+              tr
+                th Ngân hàng
+                th Đông Á Bank
+              tr
+                th Số tiền
+                th 2.500.000 VND
+              tr
+                th Diễn giải
+                th Tạo tài khoản Sbobet với
+        .deposit
+          h3.title Nạp tiền
+          .line
+          form
+            .form-control
+              label Chọn tài khoản cá cược
+              .select-style
+                select.size
+                  option Sbonet
+            .form-control
+              label Chọn ngân hàng
+              .select-style
+                select.size
+                  option Vietcombank
+                  option Sacombank
+            .form-control
+              label Tên người gửi
+              input(type="email", name="")
+            .form-control
+              label Số tiền
+              input(type="email", name="")
+            .form-control
+              label Mã giao dịch
+              input(type="email", name="")
+            .form-control
+              button.btn-submit.btn-orange(type="submit") Nạp tiền
+        .withdraw
+          h3.title Rút tiền
+          .line
+          form
+            .form-control
+              label Chọn tài khoản cá cược
+              .select-style
+                select.size
+                  option Sbonet
+            .form-control
+              label Chọn ngân hàng
+              .select-style
+                select.size
+                  option Vietcombank
+                  option Sacombank
+            .form-control
+              label Tên người nhận
+              input(type="email", name="")
+            .form-control
+              label Số tài khoản
+              input(type="email", name="")
+            .form-control
+              label Số tiền
+              input(type="email", name="")
+            .form-control.birthday
+              label Xác nhận ngày sinh
+              .form-group
+                .select-style
+                  .select-style
+                  select.size
+                    option 1
+                    option 2
+                    option 3
+                    option 4
+                    option 5
+                    option 6
+                    option 7
+                    option 8
+                    option 9
+                .select-style
+                  select.size
+                    option 1
+                    option 2
+                    option 3
+                    option 4
+                    option 5
+                    option 6
+                .select-style
+                  select.size
+                    option 1990
+                    option 1991
+                    option 1992
+                    option 1993
+                    option 1994
+                    option 1995
+            .form-control
+              button.btn-submit.btn-orange(type="submit") Rút tiền
+
+
+
+

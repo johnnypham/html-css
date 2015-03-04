@@ -1,0 +1,40 @@
+section#info-footer {
+  padding: 20px 0 0;
+  border-bottom: 1px solid #525252;
+  border-top: 1px solid #525252;
+  .content li {
+    display: inline-block;
+  }
+  .title {
+    color: #bdbdbd;
+    margin-bottom: 15px;
+  }
+  .payment-method {
+    .content {
+      img {
+        width: 82px;
+        padding: 0 5px;
+      }
+    }
+  }
+
+  .social-media {
+    .title {
+      margin-left: 20px;
+    }
+    .content {
+      margin: 15px 0 15px 20px;
+      li {
+        padding-right: 14px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+section#copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #bdbdbd;
+  line-height: 15px;
+  padding: 10px 0;
+}

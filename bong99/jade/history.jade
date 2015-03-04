@@ -1,0 +1,41 @@
+extends layout
+block title
+  title Bong99 | History
+block main
+  .container_12.history-page
+    h3.title Lịch sử giao dịch
+    .history-content
+      table
+        thead
+           tr
+             th Ngày
+             th Ngân hàng
+             th Số tiền
+             th Diễn giải
+        tbody
+            tr
+              th 22/09/2014
+              th Vietcombank
+              th 3.000.000 VND
+              th Nạp tiền vào Sbobet
+            tr
+              th 11/06/2014
+              th Đông Á Bank
+              th 2.500.000 VND
+              th Tạo tài khoản Sbobet với RKFFC
+block submenu
+  .wrapper-sub-menu
+    ul#menu-id-1.sub-menu
+      li: a(href='widthraw-money.html')
+        i.iconsp-money-white
+        span Nạp tiền, rút tiền
+      li.active-submenu: a(href='history.html')
+        i.iconsp-tranfer-white
+        span Lịch sử giao dịch
+      li: a(href='bet_history.html')
+        i.iconsp-list-white
+        span Lịch sử cá cược hằng ngày
+      li: a(href='account_info.html')
+        i.iconsp-user-white
+        span Thông tin tài khoản
+

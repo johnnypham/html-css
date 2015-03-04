@@ -1,0 +1,55 @@
+extends layout
+block title
+  title Bong99 | Account Information
+block main
+  .container_12
+    .account-info-page
+      h3.title Thông tin tài khoản
+        i.iconsp-medium-dropdown
+      .account-info-content
+        ul.account-info-left
+          li
+            label Email / Tên đăng nhập:&nbsp;
+            span Mohamad Ibrahim Movic
+          li
+            label Mật khẩu:&nbsp;
+            span 4350*********
+            a.edit(href='') edit
+          li
+           label Số điện thoại:&nbsp;
+           span 0123456789
+            a.edit(href='') edit
+        ul.account-info-right
+          li
+            label Yahoo:&nbsp;
+            span Mohamad_Yeyeye
+            a.edit(href='') edit
+          li
+            label Wechat:&nbsp;
+            span Mohamad_012345
+            a.edit(href='') edit
+          li
+            label Số điện thoại:&nbsp;
+            span 0123456789
+            .comment
+              i.iconsp-medium-comment.tooltip
+              p.content-tooltip
+                | Muốn liên hệ giá?
+                br
+                | Vui lòng liên hệ hỗ trợ. 
+
+block submenu
+  .wrapper-sub-menu
+    ul#menu-id-1.sub-menu
+      li: a(href='widthraw-money.html')
+        i.iconsp-money-white
+        span Nạp tiền, rút tiền
+      li: a(href='history.html')
+        i.iconsp-tranfer-white
+        span Lịch sử giao dịch
+      li: a(href='bet_history.html')
+        i.iconsp-list-white
+        span Lịch sử cá cược hằng ngày
+      li.active-submenu: a(href='account_info.html')
+        i.iconsp-user-white
+        span Thông tin tài khoản

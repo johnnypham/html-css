@@ -1,0 +1,190 @@
+#header {
+  padding: 10px 0 0 0;
+  #logo {
+    img {
+      width: 75%;
+    }
+  }
+  form#login-bar {
+    margin-bottom: 10px;
+    text-align: right;
+    button {
+      padding: 7px 16px;
+      cursor: pointer;
+    }
+    .form-input {
+      display: inline;
+      margin-right: 3px;
+      position: relative;
+      input {
+        width: 114px;
+      }
+    }
+    .icon-input-question {
+      position: relative;
+    }
+    .btn {
+      padding: 6px 20px;
+      font-weight: 600;
+      font-size: 13px;
+      vertical-align: middle;
+    }
+    .question-icon{
+      content: '?';
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      background: #F58920;
+      right: 8px;
+      top: 0;
+      text-align: center;
+      padding-top: 3px;
+      cursor: pointer;
+      @include boxsizing();
+      border-radius: 5px;
+      &:hover{
+        opacity:.6
+      }      
+    }
+    .icon-input-question:after {
+
+    }
+  }
+
+  .register-bar {
+    font-size: 13px;
+    text-align: right;
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: 'Helvetica Neue', sans-serif;
+      margin-left: 5px;
+      font-weight: bold;
+      .btn {
+        padding: 5px 19px;
+        font-weight: 600;
+        img {
+          position: relative;
+          top: 3px;
+          margin-left: 5px;
+        }
+        i {
+          position: relative;
+          top: 3px;
+          left: -4px;
+        }
+      }
+    }
+    button {
+      padding: 5px 15px;
+    }
+    .flag-active {
+      opacity: 1 !important;
+    }
+
+    .flag {
+      opacity: 0.7;
+    }
+  }
+
+  #top-menu {
+    border-bottom: 2px solid $orange;
+    position: relative;
+    .main-menu {
+      background: $orange;
+      width: 820px;
+      margin: 10px auto 0;
+      text-transform: uppercase;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: 800;
+      padding: 0 5px;
+      position: relative;
+      top: 2px;
+      display: table;
+      &:before,
+      &:after {
+        content: '';
+        height: 1px;
+        width: 1px;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        border-top: 25px solid transparent;
+
+      }
+      &:after {
+        border-left: 12px solid $orange;
+        right: -13px;
+      }
+      &:before {
+        border-right: 12px solid $orange;
+        left: -13px;
+      }
+      li {
+        display: table-cell;
+        text-align: center;
+        padding: 2px 0px;
+        z-index: 3;
+        position: relative;
+
+        a {
+          padding: 5px 0;
+        }
+      }
+      li:hover,
+      .active-menu {
+        background: $blue;
+      }
+    }
+  }
+  .wrapper-sub-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    left: 0;
+    top: 28px;
+  }
+  .sub-menu {
+    display: table;
+    width: 853px;
+    margin: 0 auto;
+    background: $blue;
+    box-sizing: border-box;
+    li {
+      display: table-cell;
+      text-align: center;
+      * {
+        vertical-align: middle;
+      }
+      a {
+        padding: 2px 0;
+        display: block;
+        font-size: 14px;
+        white-space: nowrap;
+        span {
+          padding-left: 12px;
+        }
+
+      }
+    }
+    .cus-center{
+      position: relative;
+      top:2px;
+    }
+    li:hover,
+    .active-submenu {
+      color: $orange;
+      i {
+        background-position-y: -30px;
+      }
+    }
+    li:hover {
+      .cus-center{
+        position: relative;
+        top: 0px;
+       }
+    }
+
+  }
+}
