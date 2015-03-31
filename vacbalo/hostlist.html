@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Vabalo</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link href="css/jquery-ui.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/popup.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page host-list">
+<!-- Header-->
+<header>
+	<!--Top Menu -->
+	<section  class="container hostlist">
+		<!--Top Menu Left-->
+		<article class="top-nav-host left-hostlist-menu">
+			<span><img src="images/logo-hostlist.png"></span>
+			<input type="text" class="btn-hostlist adress-hostlist" placeholder="Ho Chi Minh city, VietNam ">
+		</article>
+		<!--End Top Menu Left-->
+		<!--Top Menu Right-->
+		<article class="top-nav-host right-hostlist-menu">
+			    <ul>
+        			<li><a data-login="login" class="trigger"  href="#">Login</a></li>
+        			<li><a data-signup="signup" class="trigger signuptrigger" href="#">Sign up</a></li>
+        			<li id="heart"><span class="love"></span></li>
+        			<li class="top-cus-select position-1 style-cus">
+						<select>
+							<option value="help">Help</option>
+							<option value="help">Help</option>
+						</select>
+					</li>
+        			<li class="top-cus-select  position-2 style-cus">
+						<select>
+							<option value="vn">VN</option>
+							<option value="us">US</option>
+						</select>						
+					</li>
+					<li class="top-cus-select  position-3 style-cus">
+						<select>
+							<option value="vnd">VND</option>
+							<option value="dolar">Dolar</option>
+						</select>
+					</li>
+					<li class="last">
+						<a id="create-host" href="#">Create a host</a>
+					</li>						 
+        		</ul>
+		</article>
+		<!--End Top Menu Right -->
+	</section>
+	<!--End Top Menu -->
+</header>
+<!-- End Header -->
+<!-- Main Body -->
+<section class="hostlist">
+	<!-- Fitter hostlist -->
+	<section class="fitter-hostlist">
+		<!-- Fitter hostlist Small -->
+		<article class="fitter-mini">
+			<ul>
+				<li>
+					<span>	I'm <br>
+							Looking<br>
+							 for
+					</span>
+				</li>
+				<li>
+					<span>17/11/2015</span>
+					<br>><br>
+					<span>17/1/2015</span>
+				</li>
+				<li>
+					<span>Apartment</span>
+				</li>
+				<li>
+					from <br>
+					<span>400.000d</span>
+				</li>
+				<li><span>2 Bedrooms</span></li>
+				<li><span>4 Beds</span></li>
+				<li>
+					<span>
+						Water Heater<br>
+						Air Condition<br>
+						Internet<br>
+						Cable TV<br>
+						Parking
+					</span>
+				</li>
+					<li><a href="#" id="more-filter">More filter</a></li>
+			</ul>
+		</article>
+		<!-- End Fitter hostlist Small -->
+		<!-- Fitter hostlist full -->
+		<article class="full-fitter">
+			<article>
+				<span class='fitter-full-title'>date</span>
+				<input type="text" id="checkin" placeholder="check in"/>
+				<input type="text" id="checkout" placeholder="check out"/>
+			</article>
+			<article>
+				<span class='fitter-full-title'>proprty type</span>
+				<article class="checkbox-left">
+					<span><input type="checkbox"> Villa</span>
+					<span><input type="checkbox"> City House</span>
+				</article>
+				<article class="checkbox-left">
+					<span><input type="checkbox"> Apartment</span>
+					<span><input type="checkbox"> Shared room</span>
+				</article>
+
+			</article>
+			<article>
+				<span class='fitter-full-title'>Price per Night</span>
+				<input type="range"  min="0" max="100" />
+			</article>
+			<article>
+				<span class='fitter-full-title'>Guest Number</span>
+				<article class="col-md-5 styled-select slate custom-select-fitter">
+					<select>
+							<option value="">1 guests</option>
+							<option value="">2 guests</option>
+							<option value="">3 guests</option>
+					</select>
+				</article>
+			</article>
+			<article>
+				<span class='fitter-full-title'>Bed Room</span>
+				<article class="col-md-5 styled-select left-fitter-dropdown slate custom-select-fitter">
+					<select>
+							<option value="">1 bearooms</option>
+							<option value="">2 bearooms</option>
+							<option value="">3 bearooms</option>
+					</select>
+				</article>
+				<article class="col-md-5 styled-select slate custom-select-fitter">
+					<select>
+							<option value="">2 beds</option>
+							<option value="">3 beds</option>
+							<option value="">4 beds</option>
+					</select>
+				</article>				
+			</article>
+			<article>
+				<span class='fitter-full-title'>Area</span>
+				<article class="checkbox-left">
+					<span><input type="checkbox"> District 1</span>
+				</article>
+				<article class="checkbox-center">
+					<span><input type="checkbox"> District 2</span>
+				</article>
+				<article class="checkbox-right">
+					<span><input type="checkbox"> District 3</span>
+				</article>
+				<article class="checkbox-more">
+					<span><a href="#">more</a></span>
+				</article>
+			</article>
+			<article class="height-cus">
+				<span class='fitter-full-title'> Amentities</span>
+				<article class="checkbox-left">
+					<span><input type="checkbox"> Wireless Internet</span>
+					<span><input type="checkbox"> Air condition</span>
+				</article>
+				<article class="checkbox-center">
+					<span><input type="checkbox"> Television</span>
+					<span><input type="checkbox"> Sofa</span>
+				</article>
+				<article class="checkbox-right">
+					<span><input type="checkbox"> Kitchen</span>
+					<span><input type="checkbox"> Pool</span>
+				</article>
+				<article class="checkbox-more">
+					<span><a href="#">more</a></span>
+				</article>
+			</article>
+			<article id="show-list">
+				<a href="">Show list</a>
+				
+			</article>
+		</article>
+		<!-- End Fitter hostlist Full -->
+	</section>
+	<!-- End Fitter hostlist-->
+	<!-- Main hostlist data -->
+	<section  class="main-hostlist-center container">
+			<article class="breadcrumbs col-md-12">
+				<ol class="breadcrumb breadcrumb-left">
+				  <li><a href="#">Viet Name</a></li>
+				  <li class="active"><a href="#">Dat lat city</a></li>
+				
+
+				<li class="breadcrumb-right result">
+					140 properties found
+				</li>
+				</ol>
+
+			
+			</article>
+			<article class="thub-hostlist">
+				<article class="thumbnail">
+					<header class="img-host">
+						  <img class="img-responsive" src="images/dalat-mini.jpg" alt="Images">
+						 <span class="thumbnail-mini"><img src="images/mini-author-2.png"></span>
+					</header>
+		          <article class="caption">
+		            <p>Cozy Warm House<span class="btn btn-outline-dark"> 23 view</span></p>
+		           	<nav>
+		           		<a href="">Da lat</a>
+		           		<a href="">Apartment</a>
+		           		<a href="">Entire house</a>
+		           	</nav>
+		          </article>
+		        </article>
+			</article>
+			<article class="thub-hostlist">
+				<article class="thumbnail">
+					<header class="img-host">
+						  <img class="img-responsive" src="images/dalat-mini.jpg" alt="Images">
+						 <span class="thumbnail-mini"><img src="images/mini-author-2.png"></span>
+					</header>
+		          <article class="caption">
+		            <p>Cozy Warm House<span class="btn btn-outline-dark"> 23 view</span></p>
+		           	<nav>
+		           		<a href="">Da lat</a>
+		           		<a href="">Apartment</a>
+		           		<a href="">Entire house</a>
+		           	</nav>
+		          </article>
+		        </article>
+			</article>
+			<article class="thub-hostlist">
+				<article class="thumbnail">
+					<header class="img-host">
+						  <img class="img-responsive" src="images/dalat-mini.jpg" alt="Images">
+						 <span class="thumbnail-mini"><img src="images/mini-author-2.png"></span>
+					</header>
+		          <article class="caption">
+		            <p>Cozy Warm House<span class="btn btn-outline-dark"> 23 view</span></p>
+		           	<nav>
+		           		<a href="">Da lat</a>
+		           		<a href="">Apartment</a>
+		           		<a href="">Entire house</a>
+		           	</nav>
+		          </article>
+		        </article>
+			</article>
+			<article class="thub-hostlist">
+				<article class="thumbnail">
+					<header class="img-host">
+						  <img class="img-responsive" src="images/dalat-mini.jpg" alt="Images">
+						 <span class="thumbnail-mini"><img src="images/mini-author-2.png"></span>
+					</header>
+		          <article class="caption">
+		            <p>Cozy Warm House<span class="btn btn-outline-dark"> 23 view</span></p>
+		           	<nav>
+		           		<a href="">Da lat</a>
+		           		<a href="">Apartment</a>
+		           		<a href="">Entire house</a>
+		           	</nav>
+		          </article>
+		        </article>
+			</article>
+			<article class="thub-hostlist">
+				<article class="thumbnail">
+					<header class="img-host">
+						  <img class="img-responsive" src="images/dalat-mini.jpg" alt="Images">
+						 <span class="thumbnail-mini"><img src="images/mini-author-2.png"></span>
+					</header>
+		          <article class="caption">
+		            <p>Cozy Warm House<span class="btn btn-outline-dark"> 23 view</span></p>
+		           	<nav>
+		           		<a href="">Da lat</a>
+		           		<a href="">Apartment</a>
+		           		<a href="">Entire house</a>
+		           	</nav>
+		          </article>
+		        </article>
+			</article>
+			<article class="thub-hostlist">
+				<article class="thumbnail">
+					<header class="img-host">
+						  <img class="img-responsive" src="images/dalat-mini.jpg" alt="Images">
+						 <span class="thumbnail-mini"><img src="images/mini-author-2.png"></span>
+					</header>
+		          <article class="caption">
+		            <p>Cozy Warm House<span class="btn btn-outline-dark"> 23 view</span></p>
+		           	<nav>
+		           		<a href="">Da lat</a>
+		           		<a href="">Apartment</a>
+		           		<a href="">Entire house</a>
+		           	</nav>
+		          </article>
+		        </article>
+			</article>
+	</section>
+	<!-- End Main-hostlist-center data -->
+	<!-- Map hostlist-->
+	<section  style="display:none"  class="map-hostlist">
+		
+		<section style="display:none" class="map-hostlist-mini">
+			<img src="images/map-mini.jpg">
+		</section>
+		<section class="map-hostlist-full">
+		</section>
+	</section>
+	<!-- End Map hostlist-->
+</section>
+<!-- End Main Body -->
+<section id="map" class="map-hostlist">
+        <article class="list-unstyled main-map">
+        
+	         <section  class="map-hostlist-mini">
+	         <a id="nav-expander" class="nav-expander fixed">map only</a>
+				<img src="images/map-mini.jpg">
+			</section>
+			<section class="map-hostlist-full">
+			  <a href="#" id="nav-close">X</a>
+				<img src="images/map-hostlist.jpg">
+			</section>
+      </article>
+
+ </section>     
+<div  style="display:none" class="navbar navbar-inverse navbar-fixed-top">      
+        
+        <!--Include your brand here-->
+        <a class="navbar-brand" href="#">Off Canvas Menu</a>
+        <div class="navbar-header pull-right">
+          <a id="nav-expander" class="nav-expander fixed">
+            MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
+          </a>
+        </div>
+    </div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+ <script src="js/jquery.navgoco.js"></script>
+<script>
+	$('document').ready(function(){
+		// Event Date Picker
+		$( "#checkin" ).datepicker();
+		$( "#checkin" ).datepicker( "option", "dateFormat", 'd M, y' );
+		$("#checkout" ).datepicker();
+		$( "#checkout" ).datepicker( "option", "dateFormat", 'd M, y' );
+	})
+</script>
+<script>
+    $(document).ready(function(){												
+       
+       //Navigation Menu Slider
+        $('#nav-expander').on('click',function(e){
+      		e.preventDefault();
+      		$('body').toggleClass('nav-expanded');
+      	});
+      	$('.navbar-brand').on('click',function(e){
+      		e.preventDefault();
+      		alert('dsa');
+      		$('body').toggleClass('nav-expanded-2');
+      	});
+      	$('#nav-close').on('click',function(e){
+      		e.preventDefault();
+      		$('body').removeClass('nav-expanded');
+      	});
+      	
+      	
+      	// Initialize navgoco with default options
+        $(".main-menu").navgoco({
+            caret: '<span class="caret"></span>',
+            accordion: false,
+            openClass: 'open',
+            save: true,
+            cookie: {
+                name: 'navgoco',
+                expires: false,
+                path: '/'
+            },
+            slide: {
+                duration: 300,
+                easing: 'swing'
+            }
+        });
+  
+        	
+      });
+      </script>
+
+
+</body>
+</html>
